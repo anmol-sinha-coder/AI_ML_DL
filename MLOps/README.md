@@ -210,7 +210,7 @@ Launch monitored service exporting Prometheus metrics (`/metrics`):
 
 
 ```bash
-uvicorn serve_churn_monitored:app --host 0.0.0.0 --port 8000
+uvicorn serve_churn:app --host 0.0.0.0 --port 8000
 
 ```
 
@@ -256,7 +256,7 @@ Run the A/B router splitting live incoming production traffic (90% `@champion` /
 
 
 ```bash
-uvicorn serve_ab:app --host 0.0.0.0 --port 8000
+uvicorn serve_ab:app --host 0.0.0.0 --port 8001
 
 ```
 
