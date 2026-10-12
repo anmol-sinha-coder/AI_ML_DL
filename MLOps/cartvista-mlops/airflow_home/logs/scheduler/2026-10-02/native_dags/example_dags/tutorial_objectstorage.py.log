@@ -1,0 +1,606 @@
+[2026-10-03T01:37:53.002+0530] {processor.py:161} INFO - Started process (PID=20344) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:37:53.003+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:37:53.005+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.005+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:37:53.020+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:37:53.172+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.171+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2026-10-03T01:37:53.186+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.186+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2026-10-03T01:37:53.197+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.197+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2026-10-03T01:37:53.198+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.198+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:37:53.213+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.213+0530] {dag.py:3118} INFO - Creating ORM DAG for tutorial_objectstorage
+[2026-10-03T01:37:53.214+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:37:53.214+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:37:53.244+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.252 seconds
+[2026-10-03T01:38:55.337+0530] {processor.py:161} INFO - Started process (PID=20781) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:38:55.350+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:38:55.352+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:55.352+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:38:55.362+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:38:55.380+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:55.380+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:38:55.394+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:55.394+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:38:55.425+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.094 seconds
+[2026-10-03T01:39:47.340+0530] {processor.py:161} INFO - Started process (PID=21058) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:39:47.342+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:39:47.345+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:47.344+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:39:47.355+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:39:47.378+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:47.377+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:39:47.396+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:47.396+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:39:47.424+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2026-10-03T01:40:30.435+0530] {processor.py:161} INFO - Started process (PID=21304) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:40:30.437+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:40:30.439+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:30.439+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:40:30.448+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:40:30.469+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:30.468+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:40:30.482+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:30.482+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:40:30.507+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2026-10-03T01:41:15.006+0530] {processor.py:161} INFO - Started process (PID=21793) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:41:15.007+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:41:15.010+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:15.009+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:41:15.018+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:41:15.037+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:15.037+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:41:15.051+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:15.051+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:41:15.077+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.077 seconds
+[2026-10-03T01:42:00.100+0530] {processor.py:161} INFO - Started process (PID=22082) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:00.102+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:42:00.105+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:00.105+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:00.115+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:00.133+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:00.132+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:42:00.147+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:00.147+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:42:00.174+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2026-10-03T01:42:46.759+0530] {processor.py:161} INFO - Started process (PID=22412) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:46.761+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:42:46.762+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:46.762+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:46.772+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:42:46.799+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:46.798+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:42:46.813+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:46.812+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:42:46.840+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T01:43:32.269+0530] {processor.py:161} INFO - Started process (PID=22726) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:43:32.271+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:43:32.272+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:32.272+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:43:32.283+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:43:32.302+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:32.302+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:43:32.317+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:32.317+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:43:32.352+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2026-10-03T01:44:17.380+0530] {processor.py:161} INFO - Started process (PID=22996) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:44:17.382+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:44:17.383+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:17.382+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:44:17.396+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:44:17.418+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:17.418+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:44:17.442+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:17.441+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:44:17.482+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.110 seconds
+[2026-10-03T01:45:04.558+0530] {processor.py:161} INFO - Started process (PID=23329) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:04.559+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:45:04.561+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:04.560+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:04.571+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:04.589+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:04.588+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:45:04.606+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:04.605+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:45:04.635+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2026-10-03T01:45:54.030+0530] {processor.py:161} INFO - Started process (PID=23712) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:54.031+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:45:54.032+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:54.032+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:54.043+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:45:54.063+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:54.063+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:45:54.078+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:54.078+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:45:54.108+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.085 seconds
+[2026-10-03T01:46:41.772+0530] {processor.py:161} INFO - Started process (PID=23911) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:46:41.774+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:46:41.775+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:41.775+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:46:41.787+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:46:41.809+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:41.809+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:46:41.826+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:41.825+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:46:41.854+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.090 seconds
+[2026-10-03T01:47:31.928+0530] {processor.py:161} INFO - Started process (PID=24511) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:47:31.930+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:47:31.931+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:31.931+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:47:31.943+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:47:31.965+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:31.964+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:47:31.980+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:31.980+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:47:32.007+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T01:48:15.915+0530] {processor.py:161} INFO - Started process (PID=24954) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:48:15.919+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:48:15.920+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:15.920+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:48:15.929+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:48:15.947+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:15.946+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:48:15.960+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:15.960+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:48:15.990+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2026-10-03T01:49:03.016+0530] {processor.py:161} INFO - Started process (PID=25273) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:49:03.017+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:49:03.019+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:03.018+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:49:03.029+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:49:03.047+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:03.046+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:49:03.061+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:03.061+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:49:03.088+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2026-10-03T01:51:22.130+0530] {processor.py:161} INFO - Started process (PID=27837) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:51:22.132+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:51:22.133+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:22.132+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:51:22.141+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:51:22.169+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:22.169+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:51:22.182+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:22.182+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:51:22.207+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2026-10-03T01:52:13.212+0530] {processor.py:161} INFO - Started process (PID=28373) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:13.215+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:52:13.216+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:13.215+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:13.231+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:13.261+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:13.260+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:52:13.277+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:13.277+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:52:13.308+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.113 seconds
+[2026-10-03T01:52:57.906+0530] {processor.py:161} INFO - Started process (PID=28780) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:57.908+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:52:57.909+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:57.909+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:57.920+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:52:57.945+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:57.945+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:52:57.962+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:57.961+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:52:57.995+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2026-10-03T01:54:15.266+0530] {processor.py:161} INFO - Started process (PID=30299) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:15.269+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:54:15.270+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:15.270+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:15.279+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:15.298+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:15.297+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:54:15.311+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:15.311+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:54:15.337+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2026-10-03T01:54:55.504+0530] {processor.py:161} INFO - Started process (PID=30529) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:55.506+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:54:55.507+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:55.506+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:55.516+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:54:55.534+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:55.533+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:54:55.546+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:55.545+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:54:55.572+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-10-03T01:55:38.323+0530] {processor.py:161} INFO - Started process (PID=30701) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:55:38.325+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:55:38.326+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:38.325+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:55:38.335+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:55:38.353+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:38.352+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:55:38.364+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:38.364+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:55:38.390+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2026-10-03T01:56:23.037+0530] {processor.py:161} INFO - Started process (PID=31215) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:56:23.038+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:56:23.040+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:23.039+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:56:23.050+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:56:23.071+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:23.071+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:56:23.090+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:23.090+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:56:23.124+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.095 seconds
+[2026-10-03T01:57:11.063+0530] {processor.py:161} INFO - Started process (PID=31744) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:11.065+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:57:11.066+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:11.066+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:11.075+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:11.092+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:11.092+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:57:11.105+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:11.104+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:57:11.132+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-10-03T01:57:59.069+0530] {processor.py:161} INFO - Started process (PID=32268) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:59.071+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:57:59.072+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:59.072+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:59.082+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:57:59.102+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:59.101+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:57:59.116+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:59.116+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:57:59.142+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds
+[2026-10-03T01:58:49.924+0530] {processor.py:161} INFO - Started process (PID=32657) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:58:49.928+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:58:49.929+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:49.928+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:58:49.940+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:58:49.966+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:49.966+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:58:49.993+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:49.992+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:58:50.034+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.119 seconds
+[2026-10-03T01:59:43.244+0530] {processor.py:161} INFO - Started process (PID=33094) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:59:43.246+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T01:59:43.247+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:43.247+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:59:43.260+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T01:59:43.281+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:43.280+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:59:43.293+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:43.293+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T01:59:43.320+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-10-03T02:00:31.847+0530] {processor.py:161} INFO - Started process (PID=33351) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:00:31.849+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:00:31.850+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:31.850+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:00:31.860+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:00:31.884+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:31.883+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:00:31.897+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:31.897+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:00:31.924+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.085 seconds
+[2026-10-03T02:01:24.630+0530] {processor.py:161} INFO - Started process (PID=33617) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:01:24.631+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:01:24.633+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:24.632+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:01:24.642+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:01:24.659+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:24.659+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:01:24.676+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:24.676+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:01:24.710+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.089 seconds
+[2026-10-03T02:02:16.804+0530] {processor.py:161} INFO - Started process (PID=33884) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:02:16.807+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:02:16.808+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:16.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:02:16.817+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:02:16.839+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:16.839+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:16.854+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:16.853+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:02:16.879+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds
+[2026-10-03T02:03:09.027+0530] {processor.py:161} INFO - Started process (PID=34248) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:09.028+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:03:09.030+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:09.029+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:09.039+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:09.059+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:09.058+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:03:09.074+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:09.074+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:03:09.103+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2026-10-03T02:03:54.816+0530] {processor.py:161} INFO - Started process (PID=34566) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:54.819+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:03:54.820+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:54.820+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:54.834+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:03:54.862+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:54.862+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:03:54.883+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:54.883+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:03:54.925+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.119 seconds
+[2026-10-03T02:04:41.368+0530] {processor.py:161} INFO - Started process (PID=34912) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:04:41.370+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:04:41.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:41.370+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:04:41.380+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:04:41.401+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:41.401+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:04:41.414+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:41.413+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:04:41.437+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-10-03T02:05:30.028+0530] {processor.py:161} INFO - Started process (PID=35601) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:05:30.041+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:05:30.042+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:30.042+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:05:30.052+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:05:30.072+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:30.071+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:05:30.090+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:30.090+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:05:30.133+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.116 seconds
+[2026-10-03T02:06:21.439+0530] {processor.py:161} INFO - Started process (PID=36098) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:06:21.442+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:06:21.443+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:21.442+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:06:21.455+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:06:21.478+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:21.477+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:21.489+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:21.489+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:06:21.515+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-10-03T02:07:08.921+0530] {processor.py:161} INFO - Started process (PID=36347) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:08.923+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:07:08.924+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:08.924+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:08.935+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:08.954+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:08.953+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:07:08.966+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:08.966+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:07:08.990+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2026-10-03T02:07:54.452+0530] {processor.py:161} INFO - Started process (PID=36655) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:54.455+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:07:54.457+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:54.456+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:54.469+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:07:54.493+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:54.492+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:07:54.510+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:54.509+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:07:54.545+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.101 seconds
+[2026-10-03T02:08:40.855+0530] {processor.py:161} INFO - Started process (PID=36974) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:08:40.856+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:08:40.858+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:40.857+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:08:40.867+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:08:40.887+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:40.887+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:08:40.900+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:40.900+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:08:40.927+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.080 seconds
+[2026-10-03T02:09:27.908+0530] {processor.py:161} INFO - Started process (PID=37534) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:09:27.914+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:09:27.915+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:27.915+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:09:27.926+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:09:27.949+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:27.949+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:09:27.963+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:27.963+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:09:27.988+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T02:10:11.893+0530] {processor.py:161} INFO - Started process (PID=37854) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:10:11.896+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:10:11.899+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:11.898+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:10:11.912+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:10:11.935+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:11.935+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:10:11.951+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:11.950+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:10:11.982+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2026-10-03T02:11:00.607+0530] {processor.py:161} INFO - Started process (PID=38313) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:00.608+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:11:00.609+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:00.609+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:00.619+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:00.638+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:00.638+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:11:00.652+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:00.652+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:11:00.684+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2026-10-03T02:11:48.383+0530] {processor.py:161} INFO - Started process (PID=38664) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:48.387+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:11:48.388+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:48.388+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:48.402+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:11:48.425+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:48.425+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:11:48.444+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:48.443+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:11:48.486+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.112 seconds
+[2026-10-03T02:12:40.222+0530] {processor.py:161} INFO - Started process (PID=38922) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:12:40.225+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:12:40.226+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:40.226+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:12:40.235+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:12:40.252+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:40.252+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:12:40.264+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:40.264+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:12:40.288+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-10-03T02:14:29.086+0530] {processor.py:161} INFO - Started process (PID=40467) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:14:29.087+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:14:29.089+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:29.088+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:14:29.101+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:14:29.137+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:29.136+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:14:29.161+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:29.161+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:14:29.211+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.133 seconds
+[2026-10-03T02:15:25.650+0530] {processor.py:161} INFO - Started process (PID=40789) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:15:25.666+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:15:25.667+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:25.667+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:15:25.677+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:15:25.695+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:25.695+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:15:25.707+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:25.707+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:15:25.730+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T02:16:15.796+0530] {processor.py:161} INFO - Started process (PID=41113) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:16:15.798+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:16:15.799+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:15.798+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:16:15.810+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:16:15.831+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:15.831+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:16:15.847+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:15.847+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:16:15.878+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2026-10-03T02:17:05.620+0530] {processor.py:161} INFO - Started process (PID=41366) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:05.623+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:17:05.624+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:05.623+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:05.633+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:05.653+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:05.652+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:17:05.667+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:05.666+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:17:05.692+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2026-10-03T02:17:56.954+0530] {processor.py:161} INFO - Started process (PID=41739) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:56.956+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:17:56.958+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:56.957+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:56.969+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:17:56.992+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:56.992+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:17:57.007+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:57.007+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:17:57.036+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T02:18:47.368+0530] {processor.py:161} INFO - Started process (PID=42068) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:18:47.370+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:18:47.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:47.371+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:18:47.379+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:18:47.399+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:47.398+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:18:47.412+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:47.411+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:18:47.436+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-10-03T02:19:34.381+0530] {processor.py:161} INFO - Started process (PID=42393) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:19:34.383+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:19:34.384+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:34.384+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:19:34.397+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:19:34.417+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:34.417+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:19:34.434+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:34.433+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:19:34.468+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.095 seconds
+[2026-10-03T02:21:13.778+0530] {processor.py:161} INFO - Started process (PID=44557) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:13.780+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:21:13.781+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:13.781+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:13.790+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:13.814+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:13.814+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:21:13.830+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:13.830+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:21:13.858+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-10-03T02:21:54.862+0530] {processor.py:161} INFO - Started process (PID=44849) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:54.865+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:21:54.868+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:54.867+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:54.879+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:21:54.905+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:54.905+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:21:54.922+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:54.922+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:21:54.961+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.107 seconds
+[2026-10-03T02:23:27.799+0530] {processor.py:161} INFO - Started process (PID=46339) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:23:27.801+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:23:27.802+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:27.802+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:23:27.811+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:23:27.829+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:27.829+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:23:27.841+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:27.841+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:23:27.867+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-10-03T02:24:15.192+0530] {processor.py:161} INFO - Started process (PID=46718) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:15.194+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:24:15.195+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:15.195+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:15.206+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:15.229+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:15.229+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:24:15.248+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:15.247+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:24:15.278+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2026-10-03T02:24:59.295+0530] {processor.py:161} INFO - Started process (PID=46956) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:59.296+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:24:59.298+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:59.297+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:59.309+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:24:59.333+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:59.332+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:24:59.350+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:59.350+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:24:59.379+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.093 seconds
+[2026-10-03T02:25:47.227+0530] {processor.py:161} INFO - Started process (PID=47142) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:25:47.229+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:25:47.230+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:47.230+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:25:47.239+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:25:47.258+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:47.257+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:25:47.270+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:47.270+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:25:47.295+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2026-10-03T02:26:33.995+0530] {processor.py:161} INFO - Started process (PID=47385) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:26:33.996+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:26:33.997+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:33.996+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:26:34.007+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:26:34.024+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:34.024+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:26:34.036+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:34.036+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:26:34.059+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.072 seconds
+[2026-10-03T02:27:16.534+0530] {processor.py:161} INFO - Started process (PID=47623) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:27:16.536+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:27:16.538+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:16.537+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:27:16.550+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:27:16.571+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:16.571+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:27:16.588+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:16.588+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:27:16.623+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.101 seconds
+[2026-10-03T02:28:06.516+0530] {processor.py:161} INFO - Started process (PID=47913) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:06.519+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:28:06.521+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:06.520+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:06.533+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:06.556+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:06.555+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:28:06.573+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:06.573+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:28:06.608+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.101 seconds
+[2026-10-03T02:28:53.333+0530] {processor.py:161} INFO - Started process (PID=48187) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:53.334+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:28:53.335+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:53.335+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:53.344+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:28:53.359+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:53.359+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:28:53.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:53.370+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:28:53.394+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.066 seconds
+[2026-10-03T02:29:40.573+0530] {processor.py:161} INFO - Started process (PID=48428) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:29:40.576+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:29:40.577+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:40.577+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:29:40.586+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:29:40.607+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:40.607+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:29:40.622+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:40.621+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:29:40.648+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2026-10-03T02:30:27.600+0530] {processor.py:161} INFO - Started process (PID=48674) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:30:27.602+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:30:27.603+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:27.603+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:30:27.613+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:30:27.633+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:27.633+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:30:27.648+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:27.648+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:30:27.673+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds
+[2026-10-03T02:31:11.545+0530] {processor.py:161} INFO - Started process (PID=48912) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:11.547+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:31:11.548+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:11.547+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:11.557+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:11.574+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:11.574+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:31:11.586+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:11.585+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:31:11.609+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2026-10-03T02:31:57.122+0530] {processor.py:161} INFO - Started process (PID=49154) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:57.125+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:31:57.127+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:57.126+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:57.138+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:31:57.159+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:57.159+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:31:57.172+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:57.171+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:31:57.198+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.089 seconds
+[2026-10-03T02:32:43.696+0530] {processor.py:161} INFO - Started process (PID=49330) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:32:43.698+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:32:43.700+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:43.699+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:32:43.710+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:32:43.734+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:43.734+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:32:43.749+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:43.748+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:32:43.777+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2026-10-03T02:33:29.375+0530] {processor.py:161} INFO - Started process (PID=49640) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:33:29.378+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:33:29.379+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:29.378+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:33:29.390+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:33:29.413+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:29.413+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:33:29.428+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:29.428+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:33:29.465+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.102 seconds
+[2026-10-03T02:34:12.031+0530] {processor.py:161} INFO - Started process (PID=49873) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:12.034+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:34:12.035+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:12.034+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:12.046+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:12.070+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:12.070+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:34:12.083+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:12.082+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:34:12.109+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.109 seconds
+[2026-10-03T02:34:59.034+0530] {processor.py:161} INFO - Started process (PID=50255) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:59.036+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:34:59.037+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:59.037+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:59.048+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:34:59.069+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:59.069+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:34:59.094+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:59.093+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:34:59.134+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.113 seconds
+[2026-10-03T02:35:45.376+0530] {processor.py:161} INFO - Started process (PID=50511) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:35:45.377+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:35:45.378+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:45.378+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:35:45.387+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:35:45.405+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:45.405+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:35:45.417+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:45.417+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:35:45.443+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-10-03T02:36:30.911+0530] {processor.py:161} INFO - Started process (PID=50758) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:36:30.914+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:36:30.915+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:30.915+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:36:30.927+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:36:30.954+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:30.953+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:36:30.972+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:30.971+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:36:31.005+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.106 seconds
+[2026-10-03T02:37:16.122+0530] {processor.py:161} INFO - Started process (PID=50995) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:37:16.125+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:37:16.126+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:16.125+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:37:16.135+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:37:16.153+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:16.153+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:37:16.167+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:16.166+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:37:16.194+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds
+[2026-10-03T02:38:05.937+0530] {processor.py:161} INFO - Started process (PID=51413) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:05.939+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:38:05.941+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:05.940+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:05.957+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:05.984+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:05.983+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:38:06.002+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:06.002+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:38:06.039+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.116 seconds
+[2026-10-03T02:38:54.855+0530] {processor.py:161} INFO - Started process (PID=51707) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:54.857+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:38:54.858+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:54.858+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:54.871+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:38:54.893+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:54.893+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:38:54.911+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:54.911+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:38:54.946+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.101 seconds
+[2026-10-03T02:39:43.005+0530] {processor.py:161} INFO - Started process (PID=51990) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:39:43.010+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:39:43.011+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:43.010+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:39:43.020+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:39:43.041+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:43.040+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:39:43.054+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:43.054+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:39:43.083+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2026-10-03T02:40:25.054+0530] {processor.py:161} INFO - Started process (PID=52309) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:40:25.056+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:40:25.057+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:25.057+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:40:25.067+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:40:25.090+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:25.090+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:40:25.102+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:25.102+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:40:25.127+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2026-10-03T02:41:11.322+0530] {processor.py:161} INFO - Started process (PID=52793) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:11.325+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:41:11.327+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:11.326+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:11.336+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:11.367+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:11.367+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:41:11.379+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:11.379+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:41:11.403+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2026-10-03T02:41:57.083+0530] {processor.py:161} INFO - Started process (PID=53061) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:57.087+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:41:57.088+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:57.087+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:57.098+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:41:57.117+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:57.117+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:41:57.133+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:57.133+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:41:57.162+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.089 seconds
+[2026-10-03T02:42:42.547+0530] {processor.py:161} INFO - Started process (PID=53235) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:42:42.550+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:42:42.551+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:42.551+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:42:42.560+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:42:42.578+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:42.578+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:42:42.591+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:42.590+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:42:42.617+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2026-10-03T02:43:33.047+0530] {processor.py:161} INFO - Started process (PID=53676) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:43:33.049+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:43:33.050+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:33.049+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:43:33.060+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:43:33.082+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:33.081+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:43:33.094+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:33.094+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:43:33.124+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-10-03T02:44:20.520+0530] {processor.py:161} INFO - Started process (PID=54136) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:44:20.522+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:44:20.524+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:20.523+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:44:20.536+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:44:20.556+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:20.556+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:44:20.572+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:20.571+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:44:20.599+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.092 seconds
+[2026-10-03T02:45:09.533+0530] {processor.py:161} INFO - Started process (PID=54437) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:09.535+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:45:09.537+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:09.536+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:09.547+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:09.568+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:09.568+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:45:09.581+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:09.581+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:45:09.607+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2026-10-03T02:45:58.562+0530] {processor.py:161} INFO - Started process (PID=54842) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:58.564+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:45:58.565+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:58.565+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:58.576+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:45:58.597+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:58.596+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:45:58.609+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:58.609+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:45:58.634+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2026-10-03T02:46:44.581+0530] {processor.py:161} INFO - Started process (PID=55043) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:46:44.584+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:46:44.586+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:44.585+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:46:44.595+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:46:44.613+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:44.613+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:46:44.625+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:44.625+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:46:44.651+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2026-10-03T02:47:30.888+0530] {processor.py:161} INFO - Started process (PID=55285) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:47:30.892+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:47:30.893+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:30.892+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:47:30.904+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:47:30.926+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:30.926+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:47:30.942+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:30.942+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:47:30.968+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.092 seconds
+[2026-10-03T02:48:17.324+0530] {processor.py:161} INFO - Started process (PID=55595) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:48:17.327+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:48:17.329+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:17.328+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:48:17.339+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:48:17.357+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:17.356+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:48:17.368+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:17.368+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:48:17.392+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2026-10-03T02:49:02.852+0530] {processor.py:161} INFO - Started process (PID=55838) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:02.853+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:49:02.854+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:02.854+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:02.864+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:02.883+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:02.882+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:02.896+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:02.896+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:49:02.921+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2026-10-03T02:49:47.873+0530] {processor.py:161} INFO - Started process (PID=56007) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:47.876+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2026-10-03T02:49:47.877+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:47.877+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:47.886+0530] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2026-10-03T02:49:47.904+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:47.904+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:47.916+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:47.916+0530] {dag.py:3954} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2026-10-03T02:49:47.944+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds

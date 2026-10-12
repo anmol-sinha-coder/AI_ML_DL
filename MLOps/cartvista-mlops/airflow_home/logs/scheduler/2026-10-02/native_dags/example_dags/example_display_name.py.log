@@ -1,0 +1,431 @@
+[2026-10-03T01:38:32.688+0530] {processor.py:161} INFO - Started process (PID=20618) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:38:32.689+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:38:32.691+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.691+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:38:32.698+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:38:32.818+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.818+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_display_name
+[2026-10-03T01:38:32.831+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.831+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:example_display_name
+[2026-10-03T01:38:32.843+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.843+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_display_name
+[2026-10-03T01:38:32.844+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.844+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:38:32.856+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.856+0530] {dag.py:3118} INFO - Creating ORM DAG for example_display_name
+[2026-10-03T01:38:32.857+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:32.857+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:38:32.881+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.199 seconds
+[2026-10-03T01:39:28.664+0530] {processor.py:161} INFO - Started process (PID=20905) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:39:28.665+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:39:28.668+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:28.667+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:39:28.675+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:39:28.693+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:28.693+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:39:28.710+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:28.710+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:39:28.739+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.082 seconds
+[2026-10-03T01:40:20.435+0530] {processor.py:161} INFO - Started process (PID=21248) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:40:20.437+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:40:20.439+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:20.438+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:40:20.446+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:40:20.463+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:20.463+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:40:20.476+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:20.476+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:40:20.502+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.073 seconds
+[2026-10-03T01:41:26.304+0530] {processor.py:161} INFO - Started process (PID=21854) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:41:26.321+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:41:26.323+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:26.323+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:41:26.332+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:41:26.350+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:26.350+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:41:26.363+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:26.363+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:41:26.387+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.091 seconds
+[2026-10-03T01:42:32.795+0530] {processor.py:161} INFO - Started process (PID=22275) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:42:32.797+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:42:32.800+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:32.800+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:42:32.809+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:42:32.836+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:32.836+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:42:32.854+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:32.854+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:42:32.881+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.095 seconds
+[2026-10-03T01:43:41.443+0530] {processor.py:161} INFO - Started process (PID=22759) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:43:41.445+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:43:41.446+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:41.446+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:43:41.454+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:43:41.472+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:41.472+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:43:41.485+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:41.485+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:43:41.510+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2026-10-03T01:44:50.286+0530] {processor.py:161} INFO - Started process (PID=23261) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:44:50.288+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:44:50.289+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:50.289+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:44:50.296+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:44:50.315+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:50.315+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:44:50.330+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:50.330+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:44:50.359+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.079 seconds
+[2026-10-03T01:45:43.887+0530] {processor.py:161} INFO - Started process (PID=23478) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:45:43.890+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:45:43.891+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:43.891+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:45:43.901+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:45:43.922+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:43.922+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:45:43.935+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:43.935+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:45:43.962+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.082 seconds
+[2026-10-03T01:46:55.561+0530] {processor.py:161} INFO - Started process (PID=24096) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:46:55.563+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:46:55.565+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:55.564+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:46:55.571+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:46:55.591+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:55.591+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:46:55.605+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:55.604+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:46:55.648+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.094 seconds
+[2026-10-03T01:48:05.534+0530] {processor.py:161} INFO - Started process (PID=24836) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:48:05.537+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:48:05.538+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:05.537+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:48:05.546+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:48:05.567+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:05.567+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:48:05.582+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:05.582+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:48:05.609+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.081 seconds
+[2026-10-03T01:49:16.865+0530] {processor.py:161} INFO - Started process (PID=25322) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:49:16.869+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:49:16.870+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:16.870+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:49:16.878+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:49:16.898+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:16.898+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:49:16.914+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:16.913+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:49:16.942+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2026-10-03T01:51:53.327+0530] {processor.py:161} INFO - Started process (PID=28151) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:51:53.329+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:51:53.332+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:53.331+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:51:53.339+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:51:53.358+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:53.358+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:51:53.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:53.371+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:51:53.397+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2026-10-03T01:52:46.039+0530] {processor.py:161} INFO - Started process (PID=28601) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:52:46.041+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:52:46.043+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:46.042+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:52:46.050+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:52:46.070+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:46.069+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:52:46.084+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:46.083+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:52:46.108+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.080 seconds
+[2026-10-03T01:54:41.808+0530] {processor.py:161} INFO - Started process (PID=30399) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:54:41.811+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:54:41.812+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:41.812+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:54:41.819+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:54:41.837+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:41.837+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:54:41.849+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:41.849+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:54:41.874+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.074 seconds
+[2026-10-03T01:55:47.322+0530] {processor.py:161} INFO - Started process (PID=30800) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:55:47.324+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:55:47.325+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:47.325+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:55:47.331+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:55:47.350+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:47.350+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:55:47.362+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:47.362+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:55:47.386+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.071 seconds
+[2026-10-03T01:56:55.723+0530] {processor.py:161} INFO - Started process (PID=31671) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:56:55.725+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:56:55.726+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:55.726+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:56:55.733+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:56:55.754+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:55.754+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:56:55.767+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:55.767+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:56:55.792+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.078 seconds
+[2026-10-03T01:57:50.076+0530] {processor.py:161} INFO - Started process (PID=32089) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:57:50.079+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:57:50.081+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:50.080+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:57:50.090+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:57:50.114+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:50.113+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:57:50.134+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:50.134+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:57:50.163+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2026-10-03T01:59:05.060+0530] {processor.py:161} INFO - Started process (PID=32946) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:59:05.062+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T01:59:05.063+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:05.063+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:59:05.071+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T01:59:05.093+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:05.092+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:59:05.107+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:05.106+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T01:59:05.136+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.082 seconds
+[2026-10-03T02:00:18.412+0530] {processor.py:161} INFO - Started process (PID=33287) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:00:18.416+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:00:18.417+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:18.417+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:00:18.426+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:00:18.446+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:18.445+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:00:18.458+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:18.458+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:00:18.482+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.087 seconds
+[2026-10-03T02:01:11.760+0530] {processor.py:161} INFO - Started process (PID=33556) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:01:11.763+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:01:11.764+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:11.763+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:01:11.774+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:01:11.799+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:11.799+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:01:11.812+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:11.812+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:01:11.840+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.090 seconds
+[2026-10-03T02:02:04.887+0530] {processor.py:161} INFO - Started process (PID=33826) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:04.889+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:02:04.890+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:04.890+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:04.896+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:04.915+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:04.915+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:04.927+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:04.927+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:02:04.955+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2026-10-03T02:02:58.035+0530] {processor.py:161} INFO - Started process (PID=34195) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:58.038+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:02:58.039+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:58.039+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:58.047+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:02:58.068+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:58.068+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:58.082+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:58.081+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:02:58.110+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2026-10-03T02:04:06.911+0530] {processor.py:161} INFO - Started process (PID=34654) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:04:06.913+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:04:06.915+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:06.914+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:04:06.924+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:04:06.948+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:06.948+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:04:06.964+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:06.964+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:04:06.995+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.095 seconds
+[2026-10-03T02:05:17.626+0530] {processor.py:161} INFO - Started process (PID=35315) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:05:17.628+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:05:17.629+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:17.628+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:05:17.636+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:05:17.654+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:17.654+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:05:17.667+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:17.666+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:05:17.694+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2026-10-03T02:06:10.280+0530] {processor.py:161} INFO - Started process (PID=36046) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:06:10.283+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:06:10.285+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:10.284+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:06:10.293+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:06:10.319+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:10.318+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:10.336+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:10.336+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:06:10.378+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.107 seconds
+[2026-10-03T02:07:20.471+0530] {processor.py:161} INFO - Started process (PID=36389) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:07:20.473+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:07:20.474+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:20.474+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:07:20.482+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:07:20.504+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:20.504+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:07:20.518+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:20.518+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:07:20.543+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.082 seconds
+[2026-10-03T02:08:28.798+0530] {processor.py:161} INFO - Started process (PID=36917) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:08:28.800+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:08:28.801+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:28.801+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:08:28.810+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:08:28.831+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:28.831+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:08:28.846+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:28.845+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:08:28.873+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.084 seconds
+[2026-10-03T02:09:38.874+0530] {processor.py:161} INFO - Started process (PID=37569) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:09:38.878+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:09:38.879+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:38.878+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:09:38.886+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:09:38.906+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:38.906+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:09:38.921+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:38.920+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:09:38.947+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.079 seconds
+[2026-10-03T02:10:47.968+0530] {processor.py:161} INFO - Started process (PID=38199) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:10:47.970+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:10:47.971+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:47.971+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:10:47.978+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:10:47.995+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:47.994+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:10:48.006+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:48.006+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:10:48.030+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.069 seconds
+[2026-10-03T02:12:01.445+0530] {processor.py:161} INFO - Started process (PID=38773) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:12:01.448+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:12:01.449+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:01.448+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:12:01.456+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:12:01.477+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:01.477+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:12:01.497+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:01.496+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:12:01.521+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2026-10-03T02:13:45.539+0530] {processor.py:161} INFO - Started process (PID=39740) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:13:45.541+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:13:45.542+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:45.542+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:13:45.549+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:13:45.569+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:45.569+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:13:45.581+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:45.581+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:13:45.607+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2026-10-03T02:15:16.477+0530] {processor.py:161} INFO - Started process (PID=40756) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:15:16.495+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:15:16.496+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:16.495+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:15:16.502+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:15:16.520+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:16.520+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:15:16.533+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:16.533+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:15:16.562+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.091 seconds
+[2026-10-03T02:16:29.515+0530] {processor.py:161} INFO - Started process (PID=41157) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:16:29.517+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:16:29.519+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:29.518+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:16:29.527+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:16:29.546+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:29.546+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:16:29.560+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:29.560+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:16:29.596+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.090 seconds
+[2026-10-03T02:17:23.928+0530] {processor.py:161} INFO - Started process (PID=41432) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:17:23.930+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:17:23.932+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:23.931+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:17:23.938+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:17:23.957+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:23.957+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:17:23.970+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:23.970+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:17:23.994+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2026-10-03T02:18:15.010+0530] {processor.py:161} INFO - Started process (PID=41863) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:18:15.012+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:18:15.013+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:15.013+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:18:15.021+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:18:15.040+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:15.040+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:18:15.053+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:15.053+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:18:15.079+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2026-10-03T02:19:27.509+0530] {processor.py:161} INFO - Started process (PID=42368) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:19:27.512+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:19:27.514+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:27.514+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:19:27.523+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:19:27.543+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:27.543+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:19:27.556+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:27.556+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:19:27.584+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.085 seconds
+[2026-10-03T02:21:37.449+0530] {processor.py:161} INFO - Started process (PID=44641) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:21:37.451+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:21:37.453+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:37.452+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:21:37.460+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:21:37.478+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:37.478+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:21:37.491+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:37.491+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:21:37.517+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2026-10-03T02:23:15.871+0530] {processor.py:161} INFO - Started process (PID=46176) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:23:15.872+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:23:15.873+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:15.873+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:23:15.880+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:23:15.898+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:15.898+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:23:15.911+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:15.911+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:23:15.935+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.072 seconds
+[2026-10-03T02:24:25.290+0530] {processor.py:161} INFO - Started process (PID=46756) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:24:25.291+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:24:25.293+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:25.292+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:24:25.300+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:24:25.317+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:25.317+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:24:25.329+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:25.329+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:24:25.354+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.072 seconds
+[2026-10-03T02:25:34.088+0530] {processor.py:161} INFO - Started process (PID=47080) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:25:34.091+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:25:34.093+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:34.092+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:25:34.099+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:25:34.124+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:34.124+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:25:34.140+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:34.140+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:25:34.168+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2026-10-03T02:26:43.649+0530] {processor.py:161} INFO - Started process (PID=47419) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:26:43.652+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:26:43.653+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:43.653+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:26:43.662+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:26:43.687+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:43.686+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:26:43.702+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:43.701+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:26:43.727+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.085 seconds
+[2026-10-03T02:27:52.543+0530] {processor.py:161} INFO - Started process (PID=47814) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:27:52.546+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:27:52.547+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:52.546+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:27:52.555+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:27:52.574+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:52.574+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:27:52.588+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:52.587+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:27:52.618+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2026-10-03T02:29:04.885+0530] {processor.py:161} INFO - Started process (PID=48228) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:29:04.887+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:29:04.888+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:04.887+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:29:04.894+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:29:04.912+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:04.911+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:29:04.923+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:04.923+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:29:04.947+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.069 seconds
+[2026-10-03T02:30:15.915+0530] {processor.py:161} INFO - Started process (PID=48616) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:30:15.917+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:30:15.918+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:15.917+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:30:15.926+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:30:15.950+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:15.949+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:30:15.963+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:15.962+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:30:15.986+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.081 seconds
+[2026-10-03T02:31:21.694+0530] {processor.py:161} INFO - Started process (PID=48946) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:31:21.695+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:31:21.697+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:21.696+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:31:21.705+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:31:21.726+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:21.726+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:31:21.739+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:21.738+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:31:21.762+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.078 seconds
+[2026-10-03T02:32:30.532+0530] {processor.py:161} INFO - Started process (PID=49272) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:32:30.534+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:32:30.535+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:30.535+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:32:30.544+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:32:30.572+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:30.572+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:32:30.590+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:30.590+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:32:30.626+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.105 seconds
+[2026-10-03T02:33:38.064+0530] {processor.py:161} INFO - Started process (PID=49673) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:33:38.067+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:33:38.069+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:38.068+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:33:38.077+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:33:38.099+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:38.099+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:33:38.113+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:38.113+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:33:38.139+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2026-10-03T02:34:46.422+0530] {processor.py:161} INFO - Started process (PID=50053) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:34:46.424+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:34:46.427+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:46.426+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:34:46.437+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:34:46.461+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:46.461+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:34:46.478+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:46.478+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:34:46.507+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.096 seconds
+[2026-10-03T02:35:55.670+0530] {processor.py:161} INFO - Started process (PID=50614) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:35:55.673+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:35:55.675+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:55.674+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:35:55.692+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:35:55.718+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:55.717+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:35:55.734+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:55.733+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:35:55.771+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.118 seconds
+[2026-10-03T02:37:03.596+0530] {processor.py:161} INFO - Started process (PID=50937) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:37:03.599+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:37:03.601+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:03.600+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:37:03.610+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:37:03.631+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:03.631+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:37:03.644+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:03.643+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:37:03.669+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.081 seconds
+[2026-10-03T02:38:18.288+0530] {processor.py:161} INFO - Started process (PID=51490) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:38:18.290+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:38:18.291+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:18.290+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:38:18.298+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:38:18.317+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:18.317+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:38:18.331+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:18.331+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:38:18.366+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.087 seconds
+[2026-10-03T02:39:31.258+0530] {processor.py:161} INFO - Started process (PID=51932) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:39:31.260+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:39:31.261+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:31.261+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:39:31.268+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:39:31.287+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:31.286+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:39:31.300+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:31.299+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:39:31.327+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.078 seconds
+[2026-10-03T02:40:35.200+0530] {processor.py:161} INFO - Started process (PID=52372) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:40:35.204+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:40:35.205+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:35.204+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:40:35.212+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:40:35.234+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:35.233+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:40:35.248+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:35.248+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:40:35.279+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2026-10-03T02:41:45.029+0530] {processor.py:161} INFO - Started process (PID=52937) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:41:45.031+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:41:45.033+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:45.032+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:41:45.041+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:41:45.064+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:45.064+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:41:45.079+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:45.079+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:41:45.105+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.088 seconds
+[2026-10-03T02:42:55.273+0530] {processor.py:161} INFO - Started process (PID=53343) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:42:55.276+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:42:55.277+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:55.277+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:42:55.284+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:42:55.302+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:55.302+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:42:55.315+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:55.315+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:42:55.341+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds
+[2026-10-03T02:44:07.575+0530] {processor.py:161} INFO - Started process (PID=54047) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:44:07.577+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:44:07.578+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:07.577+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:44:07.585+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:44:07.605+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:07.604+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:44:07.621+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:07.620+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:44:07.648+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.083 seconds
+[2026-10-03T02:45:21.151+0530] {processor.py:161} INFO - Started process (PID=54476) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:45:21.154+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:45:21.156+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:21.155+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:45:21.164+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:45:21.183+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:21.183+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:45:21.197+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:21.197+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:45:21.224+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.085 seconds
+[2026-10-03T02:46:32.457+0530] {processor.py:161} INFO - Started process (PID=54985) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:46:32.461+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:46:32.462+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:32.461+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:46:32.469+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:46:32.487+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:32.487+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:46:32.500+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:32.500+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:46:32.529+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.080 seconds
+[2026-10-03T02:47:41.202+0530] {processor.py:161} INFO - Started process (PID=55319) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:47:41.204+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:47:41.205+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:41.205+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:47:41.212+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:47:41.230+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:41.229+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:47:41.243+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:41.242+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:47:41.268+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.075 seconds
+[2026-10-03T02:48:50.303+0530] {processor.py:161} INFO - Started process (PID=55711) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:48:50.305+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:48:50.306+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:50.306+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:48:50.313+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:48:50.335+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:50.334+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:48:50.348+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:50.347+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:48:50.372+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.079 seconds
+[2026-10-03T02:49:58.472+0530] {processor.py:161} INFO - Started process (PID=56113) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:49:58.474+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2026-10-03T02:49:58.475+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:58.475+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:49:58.482+0530] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2026-10-03T02:49:58.503+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:58.503+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:58.517+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:58.516+0530] {dag.py:3954} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2026-10-03T02:49:58.539+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.076 seconds

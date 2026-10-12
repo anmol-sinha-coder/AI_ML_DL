@@ -1,0 +1,480 @@
+[2026-10-03T01:38:26.140+0530] {processor.py:161} INFO - Started process (PID=20595) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:38:26.141+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:38:26.143+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.142+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:38:26.149+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:38:26.301+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.300+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:latest_only
+[2026-10-03T01:38:26.320+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.319+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:latest_only
+[2026-10-03T01:38:26.334+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.333+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:latest_only
+[2026-10-03T01:38:26.335+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.334+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:38:26.349+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.349+0530] {dag.py:3118} INFO - Creating ORM DAG for latest_only
+[2026-10-03T01:38:26.363+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:26.362+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:38:26.392+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.259 seconds
+[2026-10-03T01:39:23.508+0530] {processor.py:161} INFO - Started process (PID=20888) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:39:23.509+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:39:23.511+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:23.511+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:39:23.517+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:39:23.536+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:23.536+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:39:23.559+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:23.559+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:39:23.586+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T01:40:16.436+0530] {processor.py:161} INFO - Started process (PID=21237) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:40:16.437+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:40:16.440+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:16.439+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:40:16.446+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:40:16.465+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:16.465+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:40:16.487+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:16.487+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:40:16.512+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T01:41:20.566+0530] {processor.py:161} INFO - Started process (PID=21829) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:41:20.568+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:41:20.570+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:20.570+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:41:20.576+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:41:20.595+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:20.594+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:41:20.615+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:20.615+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:41:20.639+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2026-10-03T01:42:12.802+0530] {processor.py:161} INFO - Started process (PID=22131) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:42:12.805+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:42:12.807+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:12.807+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:42:12.813+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:42:12.831+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:12.831+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:42:12.852+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:12.852+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:42:12.879+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T01:43:19.449+0530] {processor.py:161} INFO - Started process (PID=22638) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:43:19.450+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:43:19.451+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:19.451+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:43:19.458+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:43:19.476+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:19.476+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:43:19.497+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:19.497+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:43:19.525+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2026-10-03T01:44:27.796+0530] {processor.py:161} INFO - Started process (PID=23036) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:44:27.798+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:44:27.799+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:27.799+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:44:27.808+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:44:27.836+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:27.836+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:44:27.874+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:27.873+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:44:27.908+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.120 seconds
+[2026-10-03T01:45:39.302+0530] {processor.py:161} INFO - Started process (PID=23452) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:45:39.304+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:45:39.305+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:39.304+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:45:39.311+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:45:39.329+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:39.329+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:45:39.350+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:39.350+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:45:39.374+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2026-10-03T01:46:50.636+0530] {processor.py:161} INFO - Started process (PID=24079) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:46:50.638+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:46:50.639+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:50.638+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:46:50.646+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:46:50.664+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:50.664+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:46:50.686+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:50.685+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:46:50.711+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2026-10-03T01:47:38.773+0530] {processor.py:161} INFO - Started process (PID=24537) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:47:38.775+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:47:38.776+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:38.776+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:47:38.783+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:47:38.800+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:38.800+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:47:38.821+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:38.820+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:47:38.850+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T01:48:45.025+0530] {processor.py:161} INFO - Started process (PID=25154) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:48:45.028+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:48:45.029+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:45.028+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:48:45.036+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:48:45.054+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:45.054+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:48:45.075+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:45.075+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:48:45.101+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T01:49:35.540+0530] {processor.py:161} INFO - Started process (PID=25522) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:49:35.543+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:49:35.544+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:35.543+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:49:35.551+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:49:35.579+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:35.578+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:49:35.608+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:35.608+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:49:35.639+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2026-10-03T01:51:47.344+0530] {processor.py:161} INFO - Started process (PID=28065) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:51:47.346+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:51:47.347+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:47.347+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:51:47.353+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:51:47.374+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:47.373+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:51:47.395+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:47.394+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:51:47.419+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2026-10-03T01:52:41.574+0530] {processor.py:161} INFO - Started process (PID=28540) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:52:41.576+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:52:41.578+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:41.577+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:52:41.585+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:52:41.603+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:41.603+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:52:41.622+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:41.621+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:52:41.645+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2026-10-03T01:54:36.657+0530] {processor.py:161} INFO - Started process (PID=30382) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:54:36.659+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:54:36.660+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:36.660+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:54:36.668+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:54:36.688+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:36.688+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:54:36.709+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:36.708+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:54:36.736+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2026-10-03T01:55:28.089+0530] {processor.py:161} INFO - Started process (PID=30651) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:55:28.093+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:55:28.095+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:28.094+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:55:28.102+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:55:28.124+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:28.124+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:55:28.144+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:28.144+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:55:28.169+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2026-10-03T01:56:36.239+0530] {processor.py:161} INFO - Started process (PID=31402) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:56:36.242+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:56:36.244+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:36.244+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:56:36.251+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:56:36.274+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:36.273+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:56:36.297+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:36.296+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:56:36.331+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2026-10-03T01:57:45.014+0530] {processor.py:161} INFO - Started process (PID=32000) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:57:45.016+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:57:45.017+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:45.017+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:57:45.025+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:57:45.050+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:45.049+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:57:45.074+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:45.074+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:57:45.108+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2026-10-03T01:58:34.963+0530] {processor.py:161} INFO - Started process (PID=32525) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:58:34.965+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:58:34.967+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:34.966+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:58:34.975+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:58:34.998+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:34.998+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:58:35.023+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:35.022+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:58:35.056+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2026-10-03T01:59:27.170+0530] {processor.py:161} INFO - Started process (PID=33021) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:59:27.173+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T01:59:27.174+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:27.174+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:59:27.181+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T01:59:27.200+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:27.200+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:59:27.220+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:27.219+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T01:59:27.244+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2026-10-03T02:00:17.253+0530] {processor.py:161} INFO - Started process (PID=33280) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:00:17.255+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:00:17.256+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:17.255+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:00:17.263+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:00:17.281+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:17.280+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:00:17.301+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:17.301+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:00:17.328+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2026-10-03T02:01:07.158+0530] {processor.py:161} INFO - Started process (PID=33543) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:01:07.159+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:01:07.160+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:07.160+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:01:07.167+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:01:07.186+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:07.186+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:01:07.206+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:07.205+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:01:07.233+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2026-10-03T02:02:01.658+0530] {processor.py:161} INFO - Started process (PID=33816) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:01.661+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:02:01.662+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:01.661+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:01.668+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:01.687+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:01.686+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:01.706+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:01.706+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:02:01.734+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T02:02:54.174+0530] {processor.py:161} INFO - Started process (PID=34182) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:54.176+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:02:54.177+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:54.176+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:54.185+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:02:54.211+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:54.211+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:54.240+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:54.239+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:02:54.275+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.110 seconds
+[2026-10-03T02:03:44.023+0530] {processor.py:161} INFO - Started process (PID=34443) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:03:44.025+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:03:44.026+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:44.026+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:03:44.033+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:03:44.053+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:44.052+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:03:44.070+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:44.070+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:03:44.099+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T02:04:53.945+0530] {processor.py:161} INFO - Started process (PID=35092) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:04:53.948+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:04:53.950+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:53.949+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:04:53.963+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:04:53.995+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:53.994+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:04:54.017+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:54.016+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:04:54.046+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.109 seconds
+[2026-10-03T02:06:05.709+0530] {processor.py:161} INFO - Started process (PID=36022) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:05.712+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:06:05.713+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:05.713+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:05.720+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:05.738+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:05.737+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:05.755+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:05.755+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:06:05.778+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2026-10-03T02:06:54.927+0530] {processor.py:161} INFO - Started process (PID=36281) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:54.928+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:06:54.930+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:54.929+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:54.937+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:06:54.956+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:54.956+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:54.979+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:54.978+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:06:55.002+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2026-10-03T02:08:05.510+0530] {processor.py:161} INFO - Started process (PID=36695) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:08:05.513+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:08:05.514+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:05.514+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:08:05.522+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:08:05.542+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:05.541+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:08:05.561+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:05.561+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:08:05.592+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2026-10-03T02:09:14.149+0530] {processor.py:161} INFO - Started process (PID=37416) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:09:14.150+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:09:14.151+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:14.151+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:09:14.158+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:09:14.175+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:14.175+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:09:14.193+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:14.192+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:09:14.215+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2026-10-03T02:10:21.045+0530] {processor.py:161} INFO - Started process (PID=37920) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:10:21.047+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:10:21.048+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:21.048+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:10:21.055+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:10:21.072+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:21.072+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:10:21.090+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:21.090+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:10:21.114+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2026-10-03T02:11:09.113+0530] {processor.py:161} INFO - Started process (PID=38341) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:09.115+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:11:09.117+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:09.116+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:09.124+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:09.145+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:09.145+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:11:09.165+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:09.165+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:11:09.192+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2026-10-03T02:11:58.627+0530] {processor.py:161} INFO - Started process (PID=38764) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:58.630+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:11:58.632+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:58.631+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:58.639+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:11:58.661+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:58.661+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:11:58.683+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:58.682+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:11:58.717+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2026-10-03T02:12:50.661+0530] {processor.py:161} INFO - Started process (PID=39027) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:12:50.663+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:12:50.664+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:50.664+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:12:50.674+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:12:50.697+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:50.696+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:12:50.718+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:50.718+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:12:50.754+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2026-10-03T02:14:41.116+0530] {processor.py:161} INFO - Started process (PID=40547) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:14:41.118+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:14:41.120+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:41.119+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:14:41.128+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:14:41.151+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:41.150+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:14:41.172+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:14:41.171+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:14:41.200+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2026-10-03T02:15:35.979+0530] {processor.py:161} INFO - Started process (PID=40890) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:15:35.981+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:15:35.982+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:35.982+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:15:35.989+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:15:36.009+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:36.008+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:15:36.033+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:36.032+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:15:36.063+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2026-10-03T02:16:26.812+0530] {processor.py:161} INFO - Started process (PID=41148) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:16:26.814+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:16:26.815+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:26.815+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:16:26.823+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:16:26.845+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:26.845+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:16:26.869+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:26.869+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:16:26.897+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2026-10-03T02:17:18.777+0530] {processor.py:161} INFO - Started process (PID=41415) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:17:18.779+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:17:18.780+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:18.779+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:17:18.787+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:17:18.807+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:18.807+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:17:18.826+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:18.825+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:17:18.852+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2026-10-03T02:18:09.640+0530] {processor.py:161} INFO - Started process (PID=41821) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:09.641+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:18:09.642+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:09.642+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:09.649+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:09.666+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:09.666+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:18:09.687+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:09.686+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:18:09.713+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2026-10-03T02:18:59.453+0530] {processor.py:161} INFO - Started process (PID=42195) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:59.455+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:18:59.456+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:59.456+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:59.463+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:18:59.483+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:59.483+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:18:59.509+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:59.509+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:18:59.541+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2026-10-03T02:20:58.336+0530] {processor.py:161} INFO - Started process (PID=44288) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:20:58.339+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:20:58.340+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:20:58.340+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:20:58.350+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:20:58.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:20:58.371+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:20:58.395+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:20:58.395+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:20:58.431+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2026-10-03T02:22:04.936+0530] {processor.py:161} INFO - Started process (PID=45022) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:22:04.938+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:22:04.941+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:04.940+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:22:04.949+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:22:04.967+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:04.967+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:22:04.987+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:04.986+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:22:05.010+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2026-10-03T02:23:55.357+0530] {processor.py:161} INFO - Started process (PID=46632) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:23:55.361+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:23:55.362+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:55.361+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:23:55.368+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:23:55.386+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:55.385+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:23:55.404+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:55.404+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:23:55.429+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2026-10-03T02:24:47.403+0530] {processor.py:161} INFO - Started process (PID=46832) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:24:47.405+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:24:47.407+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:47.406+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:24:47.416+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:24:47.435+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:47.434+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:24:47.456+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:47.456+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:24:47.483+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2026-10-03T02:25:57.531+0530] {processor.py:161} INFO - Started process (PID=47242) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:25:57.533+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:25:57.534+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:57.534+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:25:57.541+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:25:57.560+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:57.560+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:25:57.580+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:57.580+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:25:57.603+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2026-10-03T02:27:02.902+0530] {processor.py:161} INFO - Started process (PID=47558) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:27:02.905+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:27:02.906+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:02.905+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:27:02.913+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:27:02.932+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:02.932+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:27:02.950+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:02.950+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:27:02.975+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2026-10-03T02:28:14.136+0530] {processor.py:161} INFO - Started process (PID=47970) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:28:14.139+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:28:14.140+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:14.140+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:28:14.147+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:28:14.166+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:14.166+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:28:14.186+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:14.185+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:28:14.209+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2026-10-03T02:29:01.324+0530] {processor.py:161} INFO - Started process (PID=48219) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:01.342+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:29:01.344+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:01.343+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:01.351+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:01.370+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:01.369+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:29:01.390+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:01.390+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:29:01.417+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.101 seconds
+[2026-10-03T02:29:49.809+0530] {processor.py:161} INFO - Started process (PID=48488) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:49.812+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:29:49.814+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:49.813+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:49.821+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:29:49.844+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:49.843+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:29:49.866+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:49.866+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:29:49.895+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2026-10-03T02:30:55.745+0530] {processor.py:161} INFO - Started process (PID=48838) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:30:55.748+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:30:55.749+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:55.748+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:30:55.756+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:30:55.773+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:55.773+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:30:55.792+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:55.791+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:30:55.816+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2026-10-03T02:32:05.288+0530] {processor.py:161} INFO - Started process (PID=49180) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:32:05.290+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:32:05.291+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:05.290+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:32:05.298+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:32:05.319+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:05.318+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:32:05.341+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:05.340+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:32:05.367+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2026-10-03T02:33:14.038+0530] {processor.py:161} INFO - Started process (PID=49573) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:33:14.040+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:33:14.041+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:14.040+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:33:14.048+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:33:14.067+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:14.066+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:33:14.084+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:14.084+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:33:14.108+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.081 seconds
+[2026-10-03T02:34:20.742+0530] {processor.py:161} INFO - Started process (PID=49899) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:34:20.745+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:34:20.746+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:20.745+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:34:20.753+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:34:20.773+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:20.773+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:34:20.800+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:20.799+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:34:20.829+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.096 seconds
+[2026-10-03T02:35:07.654+0530] {processor.py:161} INFO - Started process (PID=50309) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:35:07.656+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:35:07.657+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:07.656+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:35:07.662+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:35:07.678+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:07.678+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:35:07.695+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:07.695+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:35:07.718+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.071 seconds
+[2026-10-03T02:36:15.469+0530] {processor.py:161} INFO - Started process (PID=50687) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:36:15.471+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:36:15.473+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:15.472+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:36:15.479+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:36:15.496+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:15.496+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:36:15.515+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:15.515+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:36:15.539+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2026-10-03T02:37:24.643+0530] {processor.py:161} INFO - Started process (PID=51028) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:37:24.645+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:37:24.647+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:24.646+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:37:24.654+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:37:24.674+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:24.674+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:37:24.697+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:24.697+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:37:24.728+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2026-10-03T02:38:15.126+0530] {processor.py:161} INFO - Started process (PID=51468) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:38:15.128+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:38:15.130+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:15.129+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:38:15.138+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:38:15.157+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:15.157+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:38:15.178+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:15.177+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:38:15.204+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2026-10-03T02:39:03.863+0530] {processor.py:161} INFO - Started process (PID=51760) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:03.866+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:39:03.868+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:03.867+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:03.875+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:03.898+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:03.897+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:39:03.919+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:03.919+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:39:03.945+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2026-10-03T02:39:51.435+0530] {processor.py:161} INFO - Started process (PID=52046) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:51.438+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:39:51.440+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:51.439+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:51.448+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:39:51.472+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:51.471+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:39:51.500+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:51.500+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:39:51.528+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.104 seconds
+[2026-10-03T02:40:55.402+0530] {processor.py:161} INFO - Started process (PID=52665) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:40:55.404+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:40:55.405+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:55.404+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:40:55.414+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:40:55.439+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:55.439+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:40:55.462+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:55.461+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:40:55.491+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2026-10-03T02:42:04.890+0530] {processor.py:161} INFO - Started process (PID=53093) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:42:04.893+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:42:04.894+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:04.894+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:42:04.901+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:42:04.921+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:04.921+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:42:04.941+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:04.941+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:42:04.969+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2026-10-03T02:43:17.522+0530] {processor.py:161} INFO - Started process (PID=53588) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:43:17.525+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:43:17.527+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:17.526+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:43:17.534+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:43:17.557+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:17.557+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:43:17.581+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:17.581+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:43:17.608+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2026-10-03T02:44:06.123+0530] {processor.py:161} INFO - Started process (PID=54045) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:44:06.126+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:44:06.127+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:06.126+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:44:06.134+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:44:06.152+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:06.152+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:44:06.172+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:06.171+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:44:06.198+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2026-10-03T02:45:18.603+0530] {processor.py:161} INFO - Started process (PID=54465) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:45:18.606+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:45:18.607+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:18.606+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:45:18.614+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:45:18.638+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:18.638+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:45:18.667+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:18.667+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:45:18.697+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2026-10-03T02:46:07.254+0530] {processor.py:161} INFO - Started process (PID=54894) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:46:07.256+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:46:07.257+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:07.257+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:46:07.264+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:46:07.281+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:07.281+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:46:07.300+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:07.300+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:46:07.325+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2026-10-03T02:47:15.642+0530] {processor.py:161} INFO - Started process (PID=55220) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:47:15.645+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:47:15.647+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:15.646+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:47:15.653+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:47:15.671+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:15.671+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:47:15.690+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:15.690+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:47:15.718+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2026-10-03T02:48:25.431+0530] {processor.py:161} INFO - Started process (PID=55622) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:48:25.434+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:48:25.435+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:25.435+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:48:25.442+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:48:25.463+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:25.463+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:48:25.482+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:25.482+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:48:25.505+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2026-10-03T02:49:33.460+0530] {processor.py:161} INFO - Started process (PID=55941) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:49:33.461+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-10-03T02:49:33.463+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:33.462+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:49:33.470+0530] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-10-03T02:49:33.489+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:33.488+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:33.509+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:33.508+0530] {dag.py:3954} INFO - Setting next_dagrun for latest_only to 2026-10-02 16:00:00+00:00, run_after=2026-10-02 20:00:00+00:00
+[2026-10-03T02:49:33.535+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds

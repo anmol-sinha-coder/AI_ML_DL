@@ -1,0 +1,48 @@
+[2026-10-03T02:23:11.685+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-10-03T02:23:11.704+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.validate_best manual__2026-10-02T20:52:25+00:00 [queued]>
+[2026-10-03T02:23:11.712+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.validate_best manual__2026-10-02T20:52:25+00:00 [queued]>
+[2026-10-03T02:23:11.712+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-10-03T02:23:11.726+0530] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): validate_best> on 2026-10-02 20:52:25+00:00
+[2026-10-03T02:23:11.740+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'cartvista_weekly_retrain', 'validate_best', 'manual__2026-10-02T20:52:25+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/cartvista_pipeline.py', '--cfg-path', '/tmp/tmp_t4sg_p5']
+[2026-10-03T02:23:11.742+0530] {standard_task_runner.py:91} INFO - Job 30: Subtask validate_best
+[2026-10-03T02:23:11.745+0530] {logging_mixin.py:188} WARNING - /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=46040) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-10-03T02:23:11.746+0530] {standard_task_runner.py:63} INFO - Started process 46132 to run task
+[2026-10-03T02:23:11.781+0530] {task_command.py:426} INFO - Running <TaskInstance: cartvista_weekly_retrain.validate_best manual__2026-10-02T20:52:25+00:00 [running]> on host Anmol-Sinha.localdomain
+[2026-10-03T02:23:11.996+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cartvista_weekly_retrain' AIRFLOW_CTX_TASK_ID='validate_best' AIRFLOW_CTX_EXECUTION_DATE='2026-10-02T20:52:25+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-02T20:52:25+00:00'
+[2026-10-03T02:23:11.997+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-10-03T02:23:12.263+0530] {logging_mixin.py:188} WARNING - /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/mlflow/utils/requirements_utils.py:20 UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+[2026-10-03T02:23:13.730+0530] {migration.py:216} INFO - Context impl SQLiteImpl.
+[2026-10-03T02:23:13.731+0530] {migration.py:219} INFO - Will assume non-transactional DDL.
+[2026-10-03T02:23:13.807+0530] {logging_mixin.py:188} INFO - Best AUC this cycle: 0.7496 (gate: 0.96)
+[2026-10-03T02:23:13.808+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-10-03T02:23:13.808+0530] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/coder/cartvista-mlops/airflow_home/dags/cartvista_pipeline.py", line 59, in validate_best
+    raise ValueError(f"Quality gate FAILED: {auc:.4f} < {AUC_GATE}")
+ValueError: Quality gate FAILED: 0.7496 < 0.96
+[2026-10-03T02:23:13.821+0530] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=cartvista_weekly_retrain, task_id=validate_best, run_id=manual__2026-10-02T20:52:25+00:00, execution_date=20261002T205225, start_date=20261002T205311, end_date=20261002T205313
+[2026-10-03T02:23:13.838+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 30 for task validate_best (Quality gate FAILED: 0.7496 < 0.96; 46132)
+[2026-10-03T02:23:13.895+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-10-03T02:23:13.916+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-03T02:23:13.924+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

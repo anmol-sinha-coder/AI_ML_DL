@@ -1,0 +1,217 @@
+[2026-10-03T07:52:45.497+0530] {processor.py:161} INFO - Started process (PID=169181) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:52:45.499+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:52:45.501+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:45.501+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:52:45.508+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:52:45.518+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:45.518+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:52:45.532+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:45.531+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:52:45.556+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.065 seconds
+[2026-10-03T07:53:46.529+0530] {processor.py:161} INFO - Started process (PID=169832) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:53:46.532+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:53:46.536+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:46.535+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:53:46.544+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:53:46.668+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:46.668+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:53:46.678+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:46.678+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:53:46.705+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.182 seconds
+[2026-10-03T07:54:42.872+0530] {processor.py:161} INFO - Started process (PID=170345) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:54:42.873+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:54:42.875+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:42.874+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:54:42.880+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:54:42.894+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:42.894+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:54:42.907+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:42.907+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:54:42.928+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.061 seconds
+[2026-10-03T07:55:37.915+0530] {processor.py:161} INFO - Started process (PID=170608) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:55:37.917+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:55:37.919+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:37.919+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:55:37.926+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:55:37.944+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:37.944+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:55:37.957+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:37.957+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:55:37.985+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.076 seconds
+[2026-10-03T07:56:25.195+0530] {processor.py:161} INFO - Started process (PID=170850) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:56:25.198+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:56:25.200+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:25.200+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:56:25.206+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:56:25.223+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:25.222+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:56:25.234+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:25.234+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:56:25.255+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.066 seconds
+[2026-10-03T07:57:16.237+0530] {processor.py:161} INFO - Started process (PID=171067) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:57:16.238+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:57:16.241+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:16.240+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:57:16.250+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:57:16.274+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:16.274+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:57:16.295+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:16.295+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:57:16.332+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.105 seconds
+[2026-10-03T07:58:13.716+0530] {processor.py:161} INFO - Started process (PID=172158) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:58:13.718+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:58:13.721+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:13.720+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:58:13.730+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:58:13.756+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:13.756+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:58:13.772+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:13.772+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:58:13.803+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.096 seconds
+[2026-10-03T07:59:10.061+0530] {processor.py:161} INFO - Started process (PID=172424) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:59:10.063+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T07:59:10.065+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:10.065+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:59:10.073+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T07:59:10.094+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:10.094+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:59:10.108+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:10.108+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T07:59:10.133+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.083 seconds
+[2026-10-03T08:00:08.814+0530] {processor.py:161} INFO - Started process (PID=172771) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:00:08.815+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:00:08.819+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:08.818+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:00:08.832+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:00:08.862+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:08.862+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:00:08.891+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:08.890+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:00:08.940+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.140 seconds
+[2026-10-03T08:01:01.322+0530] {processor.py:161} INFO - Started process (PID=173024) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:01.324+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:01:01.327+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:01.327+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:01.339+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:01.368+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:01.367+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:01:01.390+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:01.389+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:01:01.453+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.139 seconds
+[2026-10-03T08:01:51.679+0530] {processor.py:161} INFO - Started process (PID=173270) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:51.680+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:01:51.683+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:51.682+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:51.691+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:01:51.712+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:51.712+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:01:51.729+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:51.728+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:01:51.761+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.093 seconds
+[2026-10-03T08:02:41.145+0530] {processor.py:161} INFO - Started process (PID=173638) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:02:41.148+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:02:41.151+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:41.150+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:02:41.163+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:02:41.194+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:41.194+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:02:41.216+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:41.216+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:02:41.256+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.122 seconds
+[2026-10-03T08:03:32.674+0530] {processor.py:161} INFO - Started process (PID=173884) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:03:32.675+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:03:32.677+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:32.677+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:03:32.684+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:03:32.704+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:32.703+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:03:32.718+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:32.718+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:03:32.752+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.086 seconds
+[2026-10-03T08:04:24.585+0530] {processor.py:161} INFO - Started process (PID=174134) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:04:24.586+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:04:24.589+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:24.588+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:04:24.596+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:04:24.619+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:24.618+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:04:24.632+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:24.631+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:04:24.664+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.087 seconds
+[2026-10-03T08:05:13.097+0530] {processor.py:161} INFO - Started process (PID=174374) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:05:13.099+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:05:13.101+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:13.100+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:05:13.109+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:05:13.131+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:13.131+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:05:13.146+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:13.145+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:05:13.174+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.086 seconds
+[2026-10-03T08:06:02.509+0530] {processor.py:161} INFO - Started process (PID=174617) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:06:02.511+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:06:02.513+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:02.513+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:06:02.521+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:06:02.542+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:02.542+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:06:02.557+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:02.557+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:06:02.585+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.084 seconds
+[2026-10-03T08:07:05.109+0530] {processor.py:161} INFO - Started process (PID=175254) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:05.111+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:07:05.113+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:05.112+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:05.121+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:05.140+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:05.140+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:07:05.153+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:05.153+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:07:05.178+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.076 seconds
+[2026-10-03T08:07:51.748+0530] {processor.py:161} INFO - Started process (PID=175690) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:51.749+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:07:51.752+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:51.751+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:51.760+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:07:51.780+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:51.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:07:51.794+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:51.793+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:07:51.819+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.079 seconds
+[2026-10-03T08:08:40.596+0530] {processor.py:161} INFO - Started process (PID=175928) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:08:40.597+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:08:40.601+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:40.600+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:08:40.611+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:08:40.640+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:40.640+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:08:40.660+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:40.660+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:08:40.699+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.111 seconds
+[2026-10-03T08:09:28.995+0530] {processor.py:161} INFO - Started process (PID=176171) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:09:28.997+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:09:28.999+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:28.999+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:09:29.008+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:09:29.027+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:29.026+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:09:29.040+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:29.040+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:09:29.067+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.079 seconds
+[2026-10-03T08:10:17.122+0530] {processor.py:161} INFO - Started process (PID=176347) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:10:17.125+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:10:17.130+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:17.129+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:10:17.140+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:10:17.168+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:17.167+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:10:17.189+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:17.189+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:10:17.227+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.113 seconds
+[2026-10-03T08:11:05.008+0530] {processor.py:161} INFO - Started process (PID=176584) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:05.010+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:11:05.013+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:05.012+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:05.022+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:05.042+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:05.042+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:11:05.059+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:05.059+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:11:05.087+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.087 seconds
+[2026-10-03T08:11:52.518+0530] {processor.py:161} INFO - Started process (PID=176820) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:52.520+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:11:52.523+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:52.522+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:52.533+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:11:52.558+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:52.557+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:11:52.572+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:52.571+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:11:52.601+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.090 seconds
+[2026-10-03T08:12:40.575+0530] {processor.py:161} INFO - Started process (PID=177117) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:12:40.578+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:12:40.580+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:40.580+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:12:40.588+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:12:40.608+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:40.607+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:12:40.621+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:40.621+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:12:40.653+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.085 seconds
+[2026-10-03T08:13:31.325+0530] {processor.py:161} INFO - Started process (PID=177368) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:13:31.327+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:13:31.330+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:31.329+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:13:31.338+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:13:31.356+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:31.356+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:13:31.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:31.371+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:13:31.408+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.090 seconds
+[2026-10-03T08:14:19.481+0530] {processor.py:161} INFO - Started process (PID=177546) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:14:19.482+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:14:19.485+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:19.484+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:14:19.493+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:14:19.511+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:19.511+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:14:19.528+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:19.528+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:14:19.555+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.081 seconds
+[2026-10-03T08:15:09.388+0530] {processor.py:161} INFO - Started process (PID=178044) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:09.390+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:15:09.392+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:09.391+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:09.402+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:09.427+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:09.426+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:15:09.443+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:09.442+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:15:09.477+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.098 seconds
+[2026-10-03T08:15:59.741+0530] {processor.py:161} INFO - Started process (PID=178294) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:59.742+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:15:59.745+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:59.744+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:59.753+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:15:59.772+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:59.772+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:15:59.787+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:59.787+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:15:59.812+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.079 seconds
+[2026-10-03T08:16:50.741+0530] {processor.py:161} INFO - Started process (PID=178540) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:16:50.744+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:16:50.746+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.746+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:16:50.755+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:16:50.775+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.774+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:16:50.789+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.789+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:16:50.816+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.083 seconds
+[2026-10-03T08:17:42.548+0530] {processor.py:161} INFO - Started process (PID=178855) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:17:42.550+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:17:42.552+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.552+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:17:42.564+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:17:42.595+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.595+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:17:42.617+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.617+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:17:42.658+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.118 seconds
+[2026-10-03T08:18:31.904+0530] {processor.py:161} INFO - Started process (PID=179177) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:18:31.906+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-10-03T08:18:31.908+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:31.908+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:18:31.916+0530] {processor.py:840} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-10-03T08:18:31.936+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:31.935+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:18:31.950+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:31.949+0530] {dag.py:3954} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-10-03T08:18:31.975+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.077 seconds

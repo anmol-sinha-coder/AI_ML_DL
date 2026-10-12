@@ -1,0 +1,20 @@
+[2026-10-03T02:22:30.270+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-10-03T02:22:30.293+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.refresh_data manual__2026-10-02T20:52:25+00:00 [queued]>
+[2026-10-03T02:22:30.301+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.refresh_data manual__2026-10-02T20:52:25+00:00 [queued]>
+[2026-10-03T02:22:30.301+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-10-03T02:22:30.321+0530] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): refresh_data> on 2026-10-02 20:52:25+00:00
+[2026-10-03T02:22:30.336+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'cartvista_weekly_retrain', 'refresh_data', 'manual__2026-10-02T20:52:25+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/cartvista_pipeline.py', '--cfg-path', '/tmp/tmp7vne7ios']
+[2026-10-03T02:22:30.339+0530] {standard_task_runner.py:91} INFO - Job 27: Subtask refresh_data
+[2026-10-03T02:22:30.341+0530] {logging_mixin.py:188} WARNING - /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=45126) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-10-03T02:22:30.342+0530] {standard_task_runner.py:63} INFO - Started process 45236 to run task
+[2026-10-03T02:22:30.388+0530] {task_command.py:426} INFO - Running <TaskInstance: cartvista_weekly_retrain.refresh_data manual__2026-10-02T20:52:25+00:00 [running]> on host Anmol-Sinha.localdomain
+[2026-10-03T02:22:30.686+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cartvista_weekly_retrain' AIRFLOW_CTX_TASK_ID='refresh_data' AIRFLOW_CTX_EXECUTION_DATE='2026-10-02T20:52:25+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-02T20:52:25+00:00'
+[2026-10-03T02:22:30.687+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-10-03T02:22:31.598+0530] {logging_mixin.py:188} INFO - Wrote churn_data.csv | rows=5000 | churn rate=9.36%
+[2026-10-03T02:22:31.598+0530] {logging_mixin.py:188} INFO -  
+[2026-10-03T02:22:31.599+0530] {python.py:237} INFO - Done. Returned value was: None
+[2026-10-03T02:22:31.600+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-10-03T02:22:31.607+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=cartvista_weekly_retrain, task_id=refresh_data, run_id=manual__2026-10-02T20:52:25+00:00, execution_date=20261002T205225, start_date=20261002T205230, end_date=20261002T205231
+[2026-10-03T02:22:31.652+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-10-03T02:22:31.685+0530] {taskinstance.py:3503} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2026-10-03T02:22:31.694+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,24 @@
+[2026-10-03T02:20:40.612+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-10-03T02:20:40.634+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.score_weekly manual__2026-10-02T20:49:38+00:00 [queued]>
+[2026-10-03T02:20:40.642+0530] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cartvista_weekly_retrain.score_weekly manual__2026-10-02T20:49:38+00:00 [queued]>
+[2026-10-03T02:20:40.642+0530] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-10-03T02:20:40.662+0530] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): score_weekly> on 2026-10-02 20:49:38+00:00
+[2026-10-03T02:20:40.678+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'cartvista_weekly_retrain', 'score_weekly', 'manual__2026-10-02T20:49:38+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/cartvista_pipeline.py', '--cfg-path', '/tmp/tmpgjeyh217']
+[2026-10-03T02:20:40.682+0530] {standard_task_runner.py:91} INFO - Job 26: Subtask score_weekly
+[2026-10-03T02:20:40.686+0530] {logging_mixin.py:188} WARNING - /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=43750) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-10-03T02:20:40.687+0530] {standard_task_runner.py:63} INFO - Started process 43808 to run task
+[2026-10-03T02:20:40.726+0530] {task_command.py:426} INFO - Running <TaskInstance: cartvista_weekly_retrain.score_weekly manual__2026-10-02T20:49:38+00:00 [running]> on host Anmol-Sinha.localdomain
+[2026-10-03T02:20:40.976+0530] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='cartvista_weekly_retrain' AIRFLOW_CTX_TASK_ID='score_weekly' AIRFLOW_CTX_EXECUTION_DATE='2026-10-02T20:49:38+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-02T20:49:38+00:00'
+[2026-10-03T02:20:40.977+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-10-03T02:20:44.375+0530] {logging_mixin.py:188} INFO - Exporting cartvista-churn v5 (run e076b25f)
+Model exported to model_export/ -- contents: ['conda.yaml', 'python_env.yaml', 'MLmodel', 'registered_model_meta', 'metadata', 'model.pkl', 'requirements.txt']
+[2026-10-03T02:20:44.376+0530] {logging_mixin.py:188} INFO -  /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/mlflow/utils/requirements_utils.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources  # noqa: TID251
+[2026-10-03T02:20:51.284+0530] {logging_mixin.py:188} INFO - Scored 5000 customers -> /data/scored.csv (predicted churners: 18)
+[2026-10-03T02:20:51.284+0530] {logging_mixin.py:188} INFO -  2026/10/02 20:50:48 WARNING mlflow.pyfunc: The version of Python that the model was saved in, `Python 3.12.3`, differs from the version of Python that is currently running, `Python 3.11.17`, and may be incompatible
+[2026-10-03T02:20:51.284+0530] {python.py:237} INFO - Done. Returned value was: None
+[2026-10-03T02:20:51.285+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-10-03T02:20:51.290+0530] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=cartvista_weekly_retrain, task_id=score_weekly, run_id=manual__2026-10-02T20:49:38+00:00, execution_date=20261002T204938, start_date=20261002T205040, end_date=20261002T205051
+[2026-10-03T02:20:51.331+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-10-03T02:20:51.345+0530] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-10-03T02:20:51.346+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

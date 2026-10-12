@@ -1,0 +1,224 @@
+[2026-10-03T07:52:31.194+0530] {processor.py:161} INFO - Started process (PID=169137) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:52:31.195+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:52:31.197+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:31.197+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:52:31.215+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:52:31.227+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:31.226+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:52:31.252+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:52:31.252+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:52:31.281+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.094 seconds
+[2026-10-03T07:53:30.572+0530] {processor.py:161} INFO - Started process (PID=169782) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:53:30.574+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:53:30.577+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:30.576+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:53:30.588+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:53:30.718+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:30.718+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:53:30.740+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:53:30.740+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:53:30.769+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.205 seconds
+[2026-10-03T07:54:27.983+0530] {processor.py:161} INFO - Started process (PID=170294) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:54:27.984+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:54:27.986+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:27.986+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:54:27.995+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:54:28.016+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:28.016+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:54:28.037+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:54:28.037+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:54:28.064+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.087 seconds
+[2026-10-03T07:55:19.092+0530] {processor.py:161} INFO - Started process (PID=170482) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:55:19.095+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:55:19.098+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:19.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:55:19.108+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:55:19.129+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:19.128+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:55:19.151+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:55:19.151+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:55:19.184+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2026-10-03T07:56:07.119+0530] {processor.py:161} INFO - Started process (PID=170726) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:07.120+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:56:07.124+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:07.123+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:07.136+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:07.164+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:07.163+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:56:07.201+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:07.200+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:56:07.234+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.123 seconds
+[2026-10-03T07:56:49.870+0530] {processor.py:161} INFO - Started process (PID=170950) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:49.873+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:56:49.876+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:49.876+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:49.888+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:56:49.917+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:49.916+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:56:49.940+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:56:49.940+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:56:49.993+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.132 seconds
+[2026-10-03T07:57:41.631+0530] {processor.py:161} INFO - Started process (PID=172056) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:57:41.633+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:57:41.635+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:41.635+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:57:41.645+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:57:41.671+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:41.671+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:57:41.695+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:57:41.695+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:57:41.873+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.249 seconds
+[2026-10-03T07:58:38.909+0530] {processor.py:161} INFO - Started process (PID=172319) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:58:38.912+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:58:38.914+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:38.913+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:58:38.924+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:58:38.943+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:38.943+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:58:38.964+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:58:38.964+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:58:38.992+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.090 seconds
+[2026-10-03T07:59:33.928+0530] {processor.py:161} INFO - Started process (PID=172658) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:59:33.929+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T07:59:33.932+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:33.932+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:59:33.943+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T07:59:33.969+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:33.969+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T07:59:33.992+0530] {logging_mixin.py:188} INFO - [2026-10-03T07:59:33.992+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T07:59:34.017+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.096 seconds
+[2026-10-03T08:00:30.023+0530] {processor.py:161} INFO - Started process (PID=172918) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:00:30.025+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:00:30.028+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:30.027+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:00:30.040+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:00:30.065+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:30.064+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:00:30.088+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:00:30.088+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:00:30.115+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2026-10-03T08:01:21.276+0530] {processor.py:161} INFO - Started process (PID=173133) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:01:21.279+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:01:21.282+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:21.282+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:01:21.297+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:01:21.322+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:21.322+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:01:21.346+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:01:21.346+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:01:21.378+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.110 seconds
+[2026-10-03T08:02:10.667+0530] {processor.py:161} INFO - Started process (PID=173409) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:02:10.669+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:02:10.671+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:10.670+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:02:10.681+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:02:10.707+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:10.707+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:02:10.733+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:02:10.733+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:02:10.765+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.106 seconds
+[2026-10-03T08:03:01.349+0530] {processor.py:161} INFO - Started process (PID=173720) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:01.363+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:03:01.366+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:01.365+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:01.376+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:01.404+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:01.403+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:03:01.427+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:01.427+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:03:01.461+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.120 seconds
+[2026-10-03T08:03:53.329+0530] {processor.py:161} INFO - Started process (PID=173966) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:53.330+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:03:53.333+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:53.332+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:53.344+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:03:53.371+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:53.370+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:03:53.392+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:03:53.392+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:03:53.416+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.096 seconds
+[2026-10-03T08:04:43.745+0530] {processor.py:161} INFO - Started process (PID=174217) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:04:43.747+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:04:43.749+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:43.749+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:04:43.759+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:04:43.779+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:43.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:04:43.804+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:04:43.804+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:04:43.838+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.101 seconds
+[2026-10-03T08:05:33.224+0530] {processor.py:161} INFO - Started process (PID=174517) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:05:33.228+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:05:33.230+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:33.229+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:05:33.245+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:05:33.274+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:33.274+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:05:33.305+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:05:33.305+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:05:33.340+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.127 seconds
+[2026-10-03T08:06:19.701+0530] {processor.py:161} INFO - Started process (PID=174831) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:06:19.703+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:06:19.705+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:19.704+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:06:19.714+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:06:19.734+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:19.734+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:06:19.755+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:06:19.755+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:06:19.780+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.085 seconds
+[2026-10-03T08:07:04.538+0530] {processor.py:161} INFO - Started process (PID=175253) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:04.539+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:07:04.542+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:04.541+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:04.566+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:04.591+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:04.591+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:07:04.612+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:04.612+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:07:04.640+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.109 seconds
+[2026-10-03T08:07:50.728+0530] {processor.py:161} INFO - Started process (PID=175689) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:50.730+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:07:50.732+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:50.732+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:50.745+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:07:50.771+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:50.771+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:07:50.797+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:07:50.797+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:07:50.825+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.106 seconds
+[2026-10-03T08:08:39.352+0530] {processor.py:161} INFO - Started process (PID=175927) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:08:39.354+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:08:39.356+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:39.356+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:08:39.368+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:08:39.392+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:39.392+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:08:39.419+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:08:39.419+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:08:39.449+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.108 seconds
+[2026-10-03T08:09:28.720+0530] {processor.py:161} INFO - Started process (PID=176170) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:09:28.722+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:09:28.724+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:28.724+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:09:28.736+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:09:28.758+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:28.758+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:09:28.780+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:09:28.780+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:09:28.807+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2026-10-03T08:10:15.862+0530] {processor.py:161} INFO - Started process (PID=176343) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:10:15.864+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:10:15.867+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:15.866+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:10:15.881+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:10:15.904+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:15.904+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:10:15.928+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:10:15.927+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:10:15.960+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.107 seconds
+[2026-10-03T08:11:03.759+0530] {processor.py:161} INFO - Started process (PID=176583) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:03.761+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:11:03.763+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:03.762+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:03.773+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:03.797+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:03.797+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:11:03.821+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:03.821+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:11:03.850+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.098 seconds
+[2026-10-03T08:11:51.268+0530] {processor.py:161} INFO - Started process (PID=176819) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:51.270+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:11:51.274+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:51.273+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:51.285+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:11:51.306+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:51.306+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:11:51.330+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:11:51.329+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:11:51.360+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.100 seconds
+[2026-10-03T08:12:39.310+0530] {processor.py:161} INFO - Started process (PID=177116) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:12:39.312+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:12:39.314+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:39.314+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:12:39.330+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:12:39.388+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:39.388+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:12:39.416+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:12:39.415+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:12:39.439+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.136 seconds
+[2026-10-03T08:13:30.662+0530] {processor.py:161} INFO - Started process (PID=177361) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:13:30.664+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:13:30.667+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:30.666+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:13:30.677+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:13:30.699+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:30.699+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:13:30.722+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:13:30.722+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:13:30.749+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds
+[2026-10-03T08:14:18.227+0530] {processor.py:161} INFO - Started process (PID=177539) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:14:18.229+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:14:18.231+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:18.231+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:14:18.241+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:14:18.265+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:18.265+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:14:18.291+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:14:18.291+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:14:18.326+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.106 seconds
+[2026-10-03T08:15:08.136+0530] {processor.py:161} INFO - Started process (PID=177973) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:08.139+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:15:08.142+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:08.142+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:08.153+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:08.176+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:08.176+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:15:08.203+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:08.203+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:15:08.237+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.109 seconds
+[2026-10-03T08:15:58.906+0530] {processor.py:161} INFO - Started process (PID=178293) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:58.909+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:15:58.912+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:58.911+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:58.923+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:15:58.947+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:58.946+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:15:58.969+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:15:58.969+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:15:58.993+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.097 seconds
+[2026-10-03T08:16:50.387+0530] {processor.py:161} INFO - Started process (PID=178539) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:16:50.390+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:16:50.393+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.392+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:16:50.403+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:16:50.423+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.423+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:16:50.445+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:16:50.445+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:16:50.476+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.096 seconds
+[2026-10-03T08:17:42.135+0530] {processor.py:161} INFO - Started process (PID=178854) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:17:42.139+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:17:42.142+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.141+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:17:42.154+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:17:42.182+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.181+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:17:42.214+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:17:42.213+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:17:42.258+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.133 seconds
+[2026-10-03T08:18:30.753+0530] {processor.py:161} INFO - Started process (PID=179170) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:18:30.754+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2026-10-03T08:18:30.756+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:30.756+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:18:30.767+0530] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py
+[2026-10-03T08:18:30.787+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:30.787+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T08:18:30.809+0530] {logging_mixin.py:188} INFO - [2026-10-03T08:18:30.808+0530] {dag.py:3954} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2026-10-03T08:18:30.841+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_xcom.py took 0.095 seconds

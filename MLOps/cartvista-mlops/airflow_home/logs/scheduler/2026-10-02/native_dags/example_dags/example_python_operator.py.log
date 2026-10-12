@@ -1,0 +1,668 @@
+[2026-10-03T01:38:16.783+0530] {processor.py:161} INFO - Started process (PID=20563) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:38:16.783+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:38:16.785+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:16.785+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:38:16.848+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:16.847+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:38:16.848+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:38:17.007+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.006+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2026-10-03T01:38:17.020+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.020+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:example_python_operator
+[2026-10-03T01:38:17.029+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.029+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2026-10-03T01:38:17.030+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.030+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:38:17.042+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.042+0530] {dag.py:3118} INFO - Creating ORM DAG for example_python_operator
+[2026-10-03T01:38:17.043+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:38:17.043+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:38:17.068+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.293 seconds
+[2026-10-03T01:39:14.698+0530] {processor.py:161} INFO - Started process (PID=20854) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:39:14.700+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:39:14.703+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:14.702+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:39:14.776+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:14.776+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:39:14.777+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:39:14.802+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:14.802+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:39:14.818+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:39:14.817+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:39:14.847+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.156 seconds
+[2026-10-03T01:40:07.624+0530] {processor.py:161} INFO - Started process (PID=21205) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:07.628+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:40:07.630+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:07.629+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:07.694+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:07.693+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:40:07.695+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:07.721+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:07.720+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:40:07.734+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:07.734+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:40:07.760+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.142 seconds
+[2026-10-03T01:40:57.335+0530] {processor.py:161} INFO - Started process (PID=21567) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:57.337+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:40:57.339+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:57.338+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:57.416+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:57.415+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:40:57.416+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:40:57.441+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:57.441+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:40:57.456+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:40:57.456+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:40:57.485+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.162 seconds
+[2026-10-03T01:41:42.639+0530] {processor.py:161} INFO - Started process (PID=21935) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:41:42.641+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:41:42.643+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:42.643+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:41:42.706+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:42.706+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:41:42.707+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:41:42.731+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:42.731+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:41:42.746+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:41:42.746+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:41:42.774+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.141 seconds
+[2026-10-03T01:42:28.461+0530] {processor.py:161} INFO - Started process (PID=22233) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:42:28.462+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:42:28.465+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:28.464+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:42:28.543+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:28.542+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:42:28.544+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:42:28.590+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:28.590+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:42:28.615+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:42:28.615+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:42:28.662+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.209 seconds
+[2026-10-03T01:43:13.899+0530] {processor.py:161} INFO - Started process (PID=22620) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:13.902+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:43:13.903+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:13.902+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:13.972+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:13.971+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:43:13.972+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:13.997+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:13.997+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:43:14.012+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:14.012+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:43:14.042+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2026-10-03T01:43:59.519+0530] {processor.py:161} INFO - Started process (PID=22903) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:59.521+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:43:59.522+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:59.521+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:59.589+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:59.588+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:43:59.589+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:43:59.616+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:59.616+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:43:59.632+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:43:59.632+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:43:59.669+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2026-10-03T01:44:45.037+0530] {processor.py:161} INFO - Started process (PID=23199) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:44:45.039+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:44:45.040+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:45.039+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:44:45.112+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:45.111+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:44:45.112+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:44:45.137+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:45.137+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:44:45.155+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:44:45.154+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:44:45.189+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.158 seconds
+[2026-10-03T01:45:34.890+0530] {processor.py:161} INFO - Started process (PID=23436) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:45:34.893+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:45:34.894+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:34.894+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:45:34.958+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:34.958+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:45:34.959+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:45:34.984+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:34.984+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:45:34.998+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:45:34.998+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:45:35.023+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.139 seconds
+[2026-10-03T01:46:22.869+0530] {processor.py:161} INFO - Started process (PID=23814) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:46:22.873+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:46:22.874+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:22.873+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:46:22.943+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:22.943+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:46:22.944+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:46:22.969+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:22.969+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:46:22.983+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:46:22.983+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:46:23.008+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.149 seconds
+[2026-10-03T01:47:11.400+0530] {processor.py:161} INFO - Started process (PID=24288) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:11.404+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:47:11.405+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:11.405+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:11.487+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:11.487+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:47:11.488+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:11.515+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:11.515+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:47:11.532+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:11.532+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:47:11.571+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.178 seconds
+[2026-10-03T01:47:59.720+0530] {processor.py:161} INFO - Started process (PID=24744) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:59.722+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:47:59.723+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:59.723+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:59.796+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:59.795+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:47:59.798+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:47:59.827+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:59.827+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:47:59.847+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:47:59.846+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:47:59.876+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.164 seconds
+[2026-10-03T01:48:43.259+0530] {processor.py:161} INFO - Started process (PID=25119) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:48:43.262+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:48:43.263+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:43.262+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:48:43.333+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:43.332+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:48:43.334+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:48:43.356+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:43.356+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:48:43.370+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:48:43.369+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:48:43.398+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.147 seconds
+[2026-10-03T01:49:32.199+0530] {processor.py:161} INFO - Started process (PID=25507) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:49:32.203+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:49:32.205+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:32.204+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:49:32.295+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:32.295+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:49:32.297+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:49:32.333+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:32.332+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:49:32.353+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:49:32.353+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:49:32.389+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.200 seconds
+[2026-10-03T01:51:40.377+0530] {processor.py:161} INFO - Started process (PID=27971) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:51:40.379+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:51:40.380+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:40.380+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:51:40.444+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:40.444+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:51:40.445+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:51:40.470+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:40.470+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:51:40.482+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:51:40.481+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:51:40.510+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.142 seconds
+[2026-10-03T01:52:32.872+0530] {processor.py:161} INFO - Started process (PID=28508) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:52:32.874+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:52:32.875+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:32.875+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:52:32.940+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:32.939+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:52:32.941+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:52:32.965+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:32.964+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:52:32.979+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:52:32.978+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:52:33.007+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.143 seconds
+[2026-10-03T01:54:28.531+0530] {processor.py:161} INFO - Started process (PID=30350) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:54:28.533+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:54:28.534+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:28.533+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:54:28.610+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:28.610+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:54:28.611+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:54:28.643+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:28.642+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:54:28.658+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:54:28.658+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:54:28.686+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.162 seconds
+[2026-10-03T01:55:21.233+0530] {processor.py:161} INFO - Started process (PID=30625) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:55:21.234+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:55:21.236+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:21.235+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:55:21.296+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:21.296+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:55:21.297+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:55:21.316+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:21.316+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:55:21.330+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:55:21.329+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:55:21.355+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.130 seconds
+[2026-10-03T01:56:05.064+0530] {processor.py:161} INFO - Started process (PID=30933) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:05.066+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:56:05.068+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:05.067+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:05.132+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:05.131+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:56:05.132+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:05.159+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:05.159+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:56:05.174+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:05.174+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:56:05.200+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.142 seconds
+[2026-10-03T01:56:51.719+0530] {processor.py:161} INFO - Started process (PID=31661) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:51.721+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:56:51.723+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:51.722+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:51.783+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:51.783+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:56:51.784+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:56:51.804+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:51.804+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:56:51.817+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:56:51.817+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:56:51.840+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.128 seconds
+[2026-10-03T01:57:39.920+0530] {processor.py:161} INFO - Started process (PID=31979) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:57:39.922+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:57:39.923+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:39.923+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:57:39.988+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:39.988+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:57:39.989+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:57:40.010+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:40.010+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:57:40.023+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:57:40.023+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:57:40.054+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.142 seconds
+[2026-10-03T01:58:29.419+0530] {processor.py:161} INFO - Started process (PID=32502) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:58:29.421+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:58:29.422+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:29.422+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:58:29.510+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:29.510+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:58:29.511+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:58:29.548+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:29.548+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:58:29.568+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:58:29.567+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:58:29.610+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.199 seconds
+[2026-10-03T01:59:21.721+0530] {processor.py:161} INFO - Started process (PID=33004) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:59:21.724+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T01:59:21.726+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:21.725+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:59:21.793+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:21.793+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T01:59:21.794+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T01:59:21.820+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:21.820+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T01:59:21.833+0530] {logging_mixin.py:188} INFO - [2026-10-03T01:59:21.832+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T01:59:21.860+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.147 seconds
+[2026-10-03T02:00:12.691+0530] {processor.py:161} INFO - Started process (PID=33263) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:00:12.692+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:00:12.694+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:12.693+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:00:12.780+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:12.779+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:00:12.780+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:00:12.809+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:12.808+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:00:12.826+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:00:12.826+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:00:12.864+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.180 seconds
+[2026-10-03T02:01:02.303+0530] {processor.py:161} INFO - Started process (PID=33523) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:02.304+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:01:02.306+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:02.306+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:02.378+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:02.378+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:01:02.379+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:02.405+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:02.405+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:01:02.420+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:02.420+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:01:02.449+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2026-10-03T02:01:56.898+0530] {processor.py:161} INFO - Started process (PID=33799) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:56.901+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:01:56.902+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:56.902+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:56.981+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:56.981+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:01:56.982+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:01:57.016+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:57.016+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:01:57.039+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:01:57.038+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:01:57.081+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.193 seconds
+[2026-10-03T02:02:49.496+0530] {processor.py:161} INFO - Started process (PID=34099) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:02:49.499+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:02:49.501+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:49.500+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:02:49.584+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:49.584+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:02:49.586+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:02:49.614+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:49.613+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:02:49.635+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:02:49.634+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:02:49.674+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.191 seconds
+[2026-10-03T02:03:38.527+0530] {processor.py:161} INFO - Started process (PID=34426) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:03:38.530+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:03:38.531+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:38.531+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:03:38.585+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:38.585+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:03:38.586+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:03:38.613+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:38.613+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:03:38.628+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:03:38.628+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:03:38.654+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.135 seconds
+[2026-10-03T02:04:24.500+0530] {processor.py:161} INFO - Started process (PID=34799) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:04:24.502+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:04:24.504+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:24.503+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:04:24.576+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:24.575+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:04:24.577+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:04:24.603+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:24.603+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:04:24.624+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:04:24.623+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:04:24.663+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.171 seconds
+[2026-10-03T02:05:11.800+0530] {processor.py:161} INFO - Started process (PID=35258) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:05:11.802+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:05:11.803+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:11.802+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:05:11.864+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:11.863+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:05:11.864+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:05:11.891+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:11.891+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:05:11.905+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:05:11.905+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:05:11.932+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.139 seconds
+[2026-10-03T02:06:03.405+0530] {processor.py:161} INFO - Started process (PID=36002) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:03.416+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:06:03.418+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:03.417+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:03.486+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:03.486+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:06:03.487+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:03.517+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:03.516+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:03.532+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:03.532+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:06:03.559+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.161 seconds
+[2026-10-03T02:06:51.373+0530] {processor.py:161} INFO - Started process (PID=36272) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:51.375+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:06:51.376+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:51.375+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:51.443+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:51.443+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:06:51.444+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:06:51.464+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:51.464+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:06:51.477+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:06:51.477+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:06:51.499+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.136 seconds
+[2026-10-03T02:07:39.098+0530] {processor.py:161} INFO - Started process (PID=36455) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:07:39.100+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:07:39.101+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:39.100+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:07:39.168+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:39.168+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:07:39.169+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:07:39.196+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:39.196+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:07:39.212+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:07:39.211+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:07:39.238+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2026-10-03T02:08:24.762+0530] {processor.py:161} INFO - Started process (PID=36901) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:08:24.764+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:08:24.765+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:24.765+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:08:24.827+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:24.827+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:08:24.828+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:08:24.855+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:24.855+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:08:24.870+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:08:24.869+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:08:24.895+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.140 seconds
+[2026-10-03T02:09:10.145+0530] {processor.py:161} INFO - Started process (PID=37400) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:10.146+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:09:10.147+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:10.147+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:10.214+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:10.214+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:09:10.215+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:10.241+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:10.241+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:09:10.257+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:10.257+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:09:10.290+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.153 seconds
+[2026-10-03T02:09:55.500+0530] {processor.py:161} INFO - Started process (PID=37697) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:55.502+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:09:55.503+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:55.503+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:55.575+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:55.575+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:09:55.576+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:09:55.601+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:55.601+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:09:55.616+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:09:55.616+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:09:55.641+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2026-10-03T02:10:41.564+0530] {processor.py:161} INFO - Started process (PID=38079) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:10:41.566+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:10:41.567+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:41.566+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:10:41.627+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:41.626+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:10:41.627+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:10:41.651+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:41.651+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:10:41.664+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:10:41.664+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:10:41.687+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.129 seconds
+[2026-10-03T02:11:30.454+0530] {processor.py:161} INFO - Started process (PID=38415) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:11:30.456+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:11:30.457+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:30.456+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:11:30.534+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:30.534+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:11:30.535+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:11:30.557+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:30.557+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:11:30.570+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:11:30.570+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:11:30.602+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2026-10-03T02:12:21.120+0530] {processor.py:161} INFO - Started process (PID=38840) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:12:21.122+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:12:21.123+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:21.122+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:12:21.197+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:21.196+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:12:21.197+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:12:21.222+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:21.222+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:12:21.236+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:12:21.235+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:12:21.261+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2026-10-03T02:13:39.762+0530] {processor.py:161} INFO - Started process (PID=39722) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:13:39.764+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:13:39.765+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:39.764+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:13:39.835+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:39.835+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:13:39.836+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:13:39.860+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:39.860+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:13:39.874+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:13:39.874+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:13:39.900+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.144 seconds
+[2026-10-03T02:15:10.054+0530] {processor.py:161} INFO - Started process (PID=40732) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:15:10.055+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:15:10.057+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:10.056+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:15:10.134+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:10.134+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:15:10.135+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:15:10.164+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:10.163+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:15:10.181+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:15:10.181+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:15:10.214+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.169 seconds
+[2026-10-03T02:16:04.678+0530] {processor.py:161} INFO - Started process (PID=41073) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:04.680+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:16:04.681+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:04.680+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:04.756+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:04.756+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:16:04.757+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:04.783+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:04.783+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:16:04.805+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:04.804+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:16:04.841+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.170 seconds
+[2026-10-03T02:16:55.093+0530] {processor.py:161} INFO - Started process (PID=41329) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:55.096+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:16:55.098+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:55.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:55.181+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:55.180+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:16:55.182+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:16:55.211+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:55.211+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:16:55.230+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:16:55.230+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:16:55.265+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.181 seconds
+[2026-10-03T02:17:45.493+0530] {processor.py:161} INFO - Started process (PID=41523) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:17:45.495+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:17:45.496+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:45.496+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:17:45.561+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:45.561+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:17:45.562+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:17:45.592+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:45.592+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:17:45.609+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:17:45.609+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:17:45.636+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2026-10-03T02:18:37.405+0530] {processor.py:161} INFO - Started process (PID=41972) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:18:37.408+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:18:37.409+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:37.409+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:18:37.490+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:37.490+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:18:37.491+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:18:37.515+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:37.515+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:18:37.528+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:18:37.528+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:18:37.557+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.160 seconds
+[2026-10-03T02:19:26.258+0530] {processor.py:161} INFO - Started process (PID=42361) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:19:26.261+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:19:26.262+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:26.261+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:19:26.334+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:26.333+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:19:26.335+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:19:26.357+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:26.357+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:19:26.372+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:19:26.372+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:19:26.407+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2026-10-03T02:21:33.594+0530] {processor.py:161} INFO - Started process (PID=44630) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:21:33.595+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:21:33.596+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:33.596+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:21:33.654+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:33.654+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:21:33.655+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:21:33.682+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:33.682+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:21:33.699+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:21:33.698+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:21:33.724+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.137 seconds
+[2026-10-03T02:22:26.750+0530] {processor.py:161} INFO - Started process (PID=45125) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:22:26.753+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:22:26.755+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:26.754+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:22:26.850+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:26.850+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:22:26.851+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:22:26.881+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:26.880+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:22:26.901+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:22:26.901+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:22:26.941+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.199 seconds
+[2026-10-03T02:23:47.275+0530] {processor.py:161} INFO - Started process (PID=46540) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:23:47.277+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:23:47.278+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:47.278+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:23:47.351+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:47.351+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:23:47.352+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:23:47.379+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:47.378+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:23:47.398+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:23:47.397+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:23:47.429+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.163 seconds
+[2026-10-03T02:24:38.893+0530] {processor.py:161} INFO - Started process (PID=46800) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:24:38.894+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:24:38.896+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:38.895+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:24:38.971+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:38.970+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:24:38.972+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:24:39.003+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:39.003+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:24:39.019+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:24:39.019+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:24:39.050+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.165 seconds
+[2026-10-03T02:25:25.740+0530] {processor.py:161} INFO - Started process (PID=47051) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:25:25.743+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:25:25.744+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:25.744+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:25:25.808+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:25.807+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:25:25.808+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:25:25.831+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:25.831+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:25:25.844+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:25:25.844+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:25:25.870+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.138 seconds
+[2026-10-03T02:26:13.645+0530] {processor.py:161} INFO - Started process (PID=47300) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:13.647+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:26:13.648+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:13.648+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:13.713+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:13.713+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:26:13.714+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:13.738+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:13.737+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:26:13.756+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:13.755+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:26:13.795+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.156 seconds
+[2026-10-03T02:26:58.692+0530] {processor.py:161} INFO - Started process (PID=47542) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:58.693+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:26:58.694+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:58.694+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:58.765+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:58.765+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:26:58.766+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:26:58.792+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:58.792+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:26:58.806+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:26:58.806+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:26:58.833+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2026-10-03T02:27:46.030+0530] {processor.py:161} INFO - Started process (PID=47724) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:27:46.032+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:27:46.033+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:46.033+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:27:46.103+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:46.103+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:27:46.104+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:27:46.125+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:46.124+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:27:46.138+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:27:46.138+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:27:46.164+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.141 seconds
+[2026-10-03T02:28:36.024+0530] {processor.py:161} INFO - Started process (PID=48045) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:28:36.026+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:28:36.027+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:36.027+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:28:36.101+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:36.101+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:28:36.102+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:28:36.124+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:36.124+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:28:36.138+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:28:36.138+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:28:36.162+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.144 seconds
+[2026-10-03T02:29:22.625+0530] {processor.py:161} INFO - Started process (PID=48288) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:29:22.628+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:29:22.629+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:22.629+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:29:22.703+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:22.702+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:29:22.704+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:29:22.726+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:22.726+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:29:22.742+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:29:22.742+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:29:22.771+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.153 seconds
+[2026-10-03T02:30:10.662+0530] {processor.py:161} INFO - Started process (PID=48596) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:10.664+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:30:10.665+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:10.665+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:10.729+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:10.729+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:30:10.730+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:10.753+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:10.752+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:30:10.765+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:10.765+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:30:10.791+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.137 seconds
+[2026-10-03T02:30:54.500+0530] {processor.py:161} INFO - Started process (PID=48837) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:54.503+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:30:54.504+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:54.504+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:54.566+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:54.566+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:30:54.567+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:30:54.589+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:54.589+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:30:54.602+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:30:54.602+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:30:54.628+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.136 seconds
+[2026-10-03T02:31:39.775+0530] {processor.py:161} INFO - Started process (PID=49010) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:31:39.777+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:31:39.778+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:39.778+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:31:39.852+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:39.852+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:31:39.853+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:31:39.874+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:39.874+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:31:39.888+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:31:39.888+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:31:39.916+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.152 seconds
+[2026-10-03T02:32:25.891+0530] {processor.py:161} INFO - Started process (PID=49255) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:32:25.893+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:32:25.894+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:25.894+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:32:25.958+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:25.957+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:32:25.959+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:32:25.985+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:25.985+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:32:26.000+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:32:26.000+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:32:26.040+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.159 seconds
+[2026-10-03T02:33:10.561+0530] {processor.py:161} INFO - Started process (PID=49558) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:10.564+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:33:10.565+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:10.565+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:10.630+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:10.629+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:33:10.630+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:10.651+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:10.651+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:33:10.663+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:10.663+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:33:10.686+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.133 seconds
+[2026-10-03T02:33:55.507+0530] {processor.py:161} INFO - Started process (PID=49799) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:55.510+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:33:55.511+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:55.511+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:55.583+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:55.583+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:33:55.584+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:33:55.604+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:55.604+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:33:55.618+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:33:55.618+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:33:55.644+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.145 seconds
+[2026-10-03T02:34:41.167+0530] {processor.py:161} INFO - Started process (PID=50003) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:34:41.170+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:34:41.172+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:41.171+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:34:41.258+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:41.258+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:34:41.259+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:34:41.287+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:41.287+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:34:41.307+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:34:41.306+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:34:41.345+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.190 seconds
+[2026-10-03T02:35:28.529+0530] {processor.py:161} INFO - Started process (PID=50415) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:35:28.532+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:35:28.533+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:28.533+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:35:28.610+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:28.610+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:35:28.611+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:35:28.632+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:28.631+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:35:28.644+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:35:28.643+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:35:28.669+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2026-10-03T02:36:12.948+0530] {processor.py:161} INFO - Started process (PID=50679) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:12.951+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:36:12.952+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:12.952+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:13.016+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:13.016+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:36:13.017+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:13.045+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:13.045+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:36:13.060+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:13.060+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:36:13.089+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.150 seconds
+[2026-10-03T02:36:58.785+0530] {processor.py:161} INFO - Started process (PID=50920) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:58.787+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:36:58.788+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:58.788+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:58.856+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:58.855+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:36:58.856+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:36:58.885+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:58.885+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:36:58.899+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:36:58.899+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:36:58.926+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.149 seconds
+[2026-10-03T02:37:46.465+0530] {processor.py:161} INFO - Started process (PID=51177) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:37:46.468+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:37:46.469+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:46.468+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:37:46.536+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:46.536+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:37:46.537+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:37:46.562+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:46.562+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:37:46.578+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:37:46.577+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:37:46.604+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.147 seconds
+[2026-10-03T02:38:36.094+0530] {processor.py:161} INFO - Started process (PID=51559) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:38:36.096+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:38:36.098+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:36.097+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:38:36.167+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:36.166+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:38:36.168+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:38:36.197+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:36.197+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:38:36.214+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:38:36.214+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:38:36.247+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.166 seconds
+[2026-10-03T02:39:23.551+0530] {processor.py:161} INFO - Started process (PID=51907) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:39:23.555+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:39:23.556+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:23.555+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:39:23.652+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:23.651+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:39:23.653+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:39:23.680+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:23.679+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:39:23.697+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:39:23.697+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:39:23.729+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.190 seconds
+[2026-10-03T02:40:09.911+0530] {processor.py:161} INFO - Started process (PID=52149) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:40:09.913+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:40:09.914+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:09.914+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:40:09.983+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:09.982+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:40:09.983+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:40:10.008+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:10.008+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:40:10.022+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:40:10.022+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:40:10.048+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.146 seconds
+[2026-10-03T02:41:16.490+0530] {processor.py:161} INFO - Started process (PID=52836) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:41:16.492+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:41:16.493+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:16.492+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:41:16.577+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:16.577+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:41:16.578+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:41:16.604+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:16.603+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:41:16.616+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:41:16.616+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:41:16.648+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.169 seconds
+[2026-10-03T02:42:01.697+0530] {processor.py:161} INFO - Started process (PID=53078) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:01.699+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:42:01.700+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:01.700+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:01.782+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:01.781+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:42:01.783+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:01.811+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:01.810+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:42:01.827+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:01.827+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:42:01.859+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.173 seconds
+[2026-10-03T02:42:47.593+0530] {processor.py:161} INFO - Started process (PID=53252) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:47.597+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:42:47.598+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:47.597+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:47.677+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:47.676+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:42:47.678+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:42:47.704+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:47.704+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:42:47.718+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:42:47.717+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:42:47.744+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.161 seconds
+[2026-10-03T02:43:37.704+0530] {processor.py:161} INFO - Started process (PID=53722) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:43:37.708+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:43:37.709+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:37.708+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:43:37.780+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:37.779+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:43:37.781+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:43:37.809+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:37.808+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:43:37.823+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:43:37.823+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:43:37.850+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.156 seconds
+[2026-10-03T02:44:25.265+0530] {processor.py:161} INFO - Started process (PID=54150) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:44:25.267+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:44:25.268+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:25.268+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:44:25.339+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:25.339+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:44:25.340+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:44:25.374+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:25.374+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:44:25.389+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:44:25.389+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:44:25.424+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.168 seconds
+[2026-10-03T02:45:14.938+0530] {processor.py:161} INFO - Started process (PID=54454) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:45:14.940+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:45:14.941+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:14.941+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:45:15.013+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:15.012+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:45:15.013+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:45:15.038+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:15.038+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:45:15.051+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:45:15.050+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:45:15.077+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.149 seconds
+[2026-10-03T02:46:03.584+0530] {processor.py:161} INFO - Started process (PID=54882) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:03.586+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:46:03.588+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:03.587+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:03.662+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:03.661+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:46:03.663+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:03.688+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:03.687+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:46:03.704+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:03.703+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:46:03.735+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.160 seconds
+[2026-10-03T02:46:49.731+0530] {processor.py:161} INFO - Started process (PID=55060) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:49.734+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:46:49.735+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:49.735+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:49.798+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:49.798+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:46:49.799+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:46:49.821+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:49.821+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:46:49.834+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:46:49.834+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:46:49.859+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.136 seconds
+[2026-10-03T02:47:35.631+0530] {processor.py:161} INFO - Started process (PID=55302) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:47:35.633+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:47:35.635+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:35.635+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:47:35.701+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:35.700+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:47:35.702+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:47:35.724+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:35.724+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:47:35.736+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:47:35.736+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:47:35.761+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.138 seconds
+[2026-10-03T02:48:21.432+0530] {processor.py:161} INFO - Started process (PID=55612) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:48:21.433+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:48:21.434+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:21.434+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:48:21.499+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:21.498+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:48:21.499+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:48:21.522+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:21.522+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:48:21.534+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:48:21.533+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:48:21.558+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.135 seconds
+[2026-10-03T02:49:06.852+0530] {processor.py:161} INFO - Started process (PID=55849) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:06.854+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:49:06.855+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:06.855+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:06.928+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:06.928+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:49:06.929+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:06.954+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:06.954+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:06.968+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:06.968+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:49:07.000+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2026-10-03T02:49:53.025+0530] {processor.py:161} INFO - Started process (PID=56030) to work on /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:53.026+0530] {processor.py:830} INFO - Processing file /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-10-03T02:49:53.028+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:53.027+0530] {dagbag.py:545} INFO - Filling up the DagBag from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:53.100+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:53.100+0530] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-10-03T02:49:53.101+0530] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py
+[2026-10-03T02:49:53.128+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:53.127+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-10-03T02:49:53.142+0530] {logging_mixin.py:188} INFO - [2026-10-03T02:49:53.142+0530] {dag.py:3954} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-10-03T02:49:53.169+0530] {processor.py:183} INFO - Processing /home/coder/cartvista-mlops/.venv/lib/python3.12/site-packages/airflow/example_dags/example_python_operator.py took 0.153 seconds

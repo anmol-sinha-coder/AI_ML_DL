@@ -1,0 +1,1 @@
+[2026-10-03T02:13:24.855+0530] {scheduler_job_runner.py:769} ERROR - Executor reports task instance <TaskInstance: cartvista_weekly_retrain.train_rf scheduled__2026-09-21T02:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
