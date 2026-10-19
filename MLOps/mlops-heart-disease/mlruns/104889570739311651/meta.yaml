@@ -1,0 +1,6 @@
+artifact_location: file:///home/coder/AI_ML_DL/MLOps/mlops-heart-disease/mlruns/104889570739311651
+creation_time: 1792391927565
+experiment_id: '104889570739311651'
+last_update_time: 1792391927565
+lifecycle_stage: active
+name: Heart_Disease_Classification

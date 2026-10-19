@@ -1,0 +1,15 @@
+artifact_uri: file:///home/coder/AI_ML_DL/MLOps/mlops-heart-disease/mlruns/104889570739311651/5c6a836917d445b4802e8b7515cf7d0d/artifacts
+end_time: 1792391942506
+entry_point_name: ''
+experiment_id: '104889570739311651'
+lifecycle_stage: active
+run_id: 5c6a836917d445b4802e8b7515cf7d0d
+run_name: Random_Forest
+run_uuid: 5c6a836917d445b4802e8b7515cf7d0d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792391936637
+status: 3
+tags: []
+user_id: coder

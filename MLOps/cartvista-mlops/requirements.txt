@@ -274,6 +274,7 @@ pluggy==1.6.0
 portalocker==2.7.0
 posthog==5.4.0
 prettytable==3.18.0
+prometheus-fastapi-instrumentator==7.1.0
 prometheus_client==0.25.0
 prompt_toolkit==3.0.52
 propcache==0.5.2

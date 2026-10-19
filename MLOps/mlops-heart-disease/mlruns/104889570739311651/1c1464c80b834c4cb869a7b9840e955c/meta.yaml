@@ -1,0 +1,15 @@
+artifact_uri: file:///home/coder/AI_ML_DL/MLOps/mlops-heart-disease/mlruns/104889570739311651/1c1464c80b834c4cb869a7b9840e955c/artifacts
+end_time: 1792391936632
+entry_point_name: ''
+experiment_id: '104889570739311651'
+lifecycle_stage: active
+run_id: 1c1464c80b834c4cb869a7b9840e955c
+run_name: Logistic_Regression
+run_uuid: 1c1464c80b834c4cb869a7b9840e955c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792391927762
+status: 3
+tags: []
+user_id: coder
