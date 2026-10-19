@@ -68,13 +68,13 @@ git clone <repository-url>
 cd mlops-heart-disease
 
 # 2. Make the script executable
-chmod +x deploy.sh
+chmod +x initial_deploy.sh
 
 # 3. Run automated setup (Docker Compose stack)
-./deploy.sh
+./initial_deploy.sh
 
 # (Optional) Run automated setup including Kubernetes (Minikube) deployment
-./deploy.sh --with-k8s
+./initial_deploy.sh --with-k8s
 
 ```
 
