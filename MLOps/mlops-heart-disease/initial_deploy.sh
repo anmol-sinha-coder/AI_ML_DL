@@ -67,7 +67,7 @@ while (($#)); do
 done
 
 if [[ "$K8S_MODE" != "none" && "$EUID" -eq 0 ]]; then
-  echo "ERROR: Run this script as your normal user, not via sudo. The script uses sudo only for system-level installation; Minikube should not be run as root." >&2
+  echo "ERROR: Run this script as your normal user, not via SuperUser Admin. The script uses SuperUser Admin only for system-level installation; Minikube should not be run as root." >&2
   exit 1
 fi
 
@@ -183,7 +183,7 @@ docker_cli version >/dev/null
 docker_cli compose version >/dev/null
 
 # Add the invoking non-root account to the docker group where possible. Current
-# script commands fall back to sudo if the new group membership is not active.
+# script commands fall back to SuperUser Admin if the new group membership is not active.
 TARGET_USER="${SUDO_USER:-${USER:-}}"
 if [[ -n "$TARGET_USER" && "$TARGET_USER" != "root" ]] && getent group docker >/dev/null 2>&1; then
   if ! id -nG "$TARGET_USER" | tr ' ' '\n' | grep -qx docker; then
@@ -206,7 +206,7 @@ python -m pip install -r requirements.txt
 PYTHON_BIN="$PROJECT_ROOT/.venv/bin/python"
 
 # Validate Compose configuration early, before downloading/training.
-compose config --quiet
+docker compose config --quiet
 
 # ---------------------------- Step 4: Ingest data ----------------------------
 log "[4/8] Downloading/preparing the Cleveland Heart Disease dataset..."
@@ -214,9 +214,15 @@ log "[4/8] Downloading/preparing the Cleveland Heart Disease dataset..."
 
 # ---------------------------- Step 5: MLflow + training ----------------------
 log "[5/8] Starting MLflow tracking server without deleting existing volumes..."
-compose up -d mlflow
+
+docker compose down -v --remove-orphans || true
+for c in mlflow_server ml_api prometheus grafana; do 
+    docker rm -f "$c" >/dev/null 2>&1 || true
+done
+docker compose up -d mlflow
+
 if ! wait_for_http "$MLFLOW_URL" "MLflow tracking server" "$HEALTH_TIMEOUT_SECONDS"; then
-  compose logs --tail=100 mlflow || true
+  docker compose logs --tail=100 mlflow || true
   fail "MLflow failed to start. Inspect the logs above and the Compose MLflow configuration."
 fi
 
@@ -332,6 +338,7 @@ if [[ "$K8S_MODE" != "none" ]]; then
       --set image.tag=v1 \
       --set image.pullPolicy=IfNotPresent \
       --wait --timeout=180s
+    #  helm install heart-disease-release helm/heart-disease-app
     kubectl get deployments,pods,svc -l "app.kubernetes.io/instance=${HELM_RELEASE}" -o wide || true
     K8S_HELM_SERVICE="$(kubectl get svc -o json | jq -r '.items[] | select(any(.spec.ports[]?; .port == 8000 or .targetPort == 8000)) | .metadata.name' | head -n 1)"
     test_kubernetes_service "$K8S_HELM_SERVICE"
