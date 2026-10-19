@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+coverage.xml
+mlruns/
+mlflow.db
+logs/
+reports/
+*.log
+# models/ and data/ are committed on purpose (clone-and-run, Docker build input)

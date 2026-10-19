@@ -1,0 +1,41 @@
+{
+  "Logistic_Regression": {
+    "run_id": "c32d291f28274e66a6cf7c5263dd1228",
+    "best_params": {
+      "C": 1.0
+    },
+    "cv_accuracy": 0.8471,
+    "cv_accuracy_std": 0.01,
+    "cv_precision": 0.8768,
+    "cv_precision_std": 0.0542,
+    "cv_recall": 0.7834,
+    "cv_recall_std": 0.0459,
+    "cv_roc_auc": 0.9025,
+    "cv_roc_auc_std": 0.0144,
+    "test_accuracy": 0.8852,
+    "test_precision": 0.8387,
+    "test_recall": 0.9286,
+    "test_roc_auc": 0.9665
+  },
+  "Random_Forest": {
+    "run_id": "2c687dad708c4553ae51650571fb577d",
+    "best_params": {
+      "max_depth": 5,
+      "min_samples_leaf": 3,
+      "n_estimators": 100
+    },
+    "cv_accuracy": 0.8056,
+    "cv_accuracy_std": 0.0225,
+    "cv_precision": 0.8109,
+    "cv_precision_std": 0.059,
+    "cv_recall": 0.7644,
+    "cv_recall_std": 0.0894,
+    "cv_roc_auc": 0.9013,
+    "cv_roc_auc_std": 0.0236,
+    "test_accuracy": 0.8689,
+    "test_precision": 0.8333,
+    "test_recall": 0.8929,
+    "test_roc_auc": 0.947
+  },
+  "champion": "Logistic_Regression"
+}

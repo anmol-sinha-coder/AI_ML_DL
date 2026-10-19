@@ -43,6 +43,9 @@ services:
     container_name: grafana
     ports:
       - "3000:3000"
+    volumes:
+      - ./monitoring:/etc/grafana/provisioning
+      - ./monitoring/grafana_dashboard.json:/var/lib/grafana/dashboards/grafana_dashboard.json
     depends_on:
       - prometheus
 

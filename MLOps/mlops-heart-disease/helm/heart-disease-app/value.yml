@@ -1,0 +1,23 @@
+replicaCount: 2
+
+image:
+  repository: heart-disease-api
+  tag: v1
+  pullPolicy: Never
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8000
+
+resources:
+  requests:
+    cpu: "250m"
+    memory: "256Mi"
+  limits:
+    cpu: "500m"
+    memory: "512Mi"
+
+mlflow:
+  enabled: true
+  trackingUri: "http://mlflow-service:5000"
