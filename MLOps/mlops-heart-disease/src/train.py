@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import os
+import matplotlib
+matplotlib.use('Agg')  # Force headless rendering without GUI
 import matplotlib.pyplot as plt
 import joblib
 

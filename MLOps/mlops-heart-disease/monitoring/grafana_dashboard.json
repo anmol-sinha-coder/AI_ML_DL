@@ -5,27 +5,53 @@
   "graphTooltip": 0,
   "id": null,
   "links": [],
-  "liveNow": false,
+  "liveNow": true,
   "panels": [
     {
-      "title": "API Request Rate (RPS)",
+      "title": "API Total Request Rate (RPS)",
       "type": "timeseries",
-      "datasource": "Prometheus",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
       "targets": [
         {
-          "expr": "sum(rate(http_requests_total[1m]))",
-          "legendFormat": "Requests/sec"
+          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "editorMode": "code",
+          "expr": "sum(rate(http_requests_total[1m])) or sum(rate(http_request_duration_seconds_count[1m]))",
+          "legendFormat": "Total Requests/sec",
+          "range": true,
+          "refId": "A"
         }
       ]
     },
     {
-      "title": "Latency (95th Percentile)",
+      "title": "HTTP Status Code Breakdown",
       "type": "timeseries",
-      "datasource": "Prometheus",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
       "targets": [
         {
+          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "editorMode": "code",
+          "expr": "sum(rate(http_requests_total[1m])) by (status) or sum(rate(http_request_duration_seconds_count[1m])) by (status)",
+          "legendFormat": "HTTP {{status}}",
+          "range": true,
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "title": "Latency (p95 Percentile)",
+      "type": "timeseries",
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 8 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "datasource": { "type": "prometheus", "uid": "prometheus" },
+          "editorMode": "code",
           "expr": "histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[1m])) by (le))",
-          "legendFormat": "p95 Latency (s)"
+          "legendFormat": "p95 Latency (s)",
+          "range": true,
+          "refId": "C"
         }
       ]
     }

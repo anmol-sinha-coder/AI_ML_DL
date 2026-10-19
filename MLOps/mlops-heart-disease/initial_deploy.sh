@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # End-to-end initial deployment for the MLOps Heart Disease stack.
 # Run this script from the repository root (or keep it in the repository root).
-# Usage: ./deploy_mlops.sh [--with-k8s | --helm] [--no-traffic]
+# Usage: ./deploy_mlops.sh [--k8s | --helm] [--no-traffic]
 
 set -Eeuo pipefail
 
@@ -37,7 +37,7 @@ Usage:
   ./deploy_mlops.sh [options]
 
 Options:
-  --with-k8s       Also deploy using k8s/deployment.yml (and k8s/service.yml if present)
+  --k8s       Also deploy using k8s/deployment.yml (and k8s/service.yml if present)
   --helm           Also deploy using helm/heart-disease-app
   --no-traffic     Do not start tests/traffic_generator.py after deployment
   -h, --help       Show this help
@@ -51,12 +51,12 @@ USAGE
 
 while (($#)); do
   case "$1" in
-    --with-k8s)
-      [[ "$K8S_MODE" == "none" ]] || { echo "ERROR: --with-k8s and --helm are mutually exclusive." >&2; exit 2; }
+    --k8s)
+      [[ "$K8S_MODE" == "none" ]] || { echo "ERROR: --k8s and --helm are mutually exclusive." >&2; exit 2; }
       K8S_MODE="manifests"
       ;;
     --helm)
-      [[ "$K8S_MODE" == "none" ]] || { echo "ERROR: --with-k8s and --helm are mutually exclusive." >&2; exit 2; }
+      [[ "$K8S_MODE" == "none" ]] || { echo "ERROR: --k8s and --helm are mutually exclusive." >&2; exit 2; }
       K8S_MODE="helm"
       ;;
     --no-traffic) START_TRAFFIC="false" ;;
@@ -283,7 +283,7 @@ start_minikube() {
     # the user to log out and back in before the first deployment.
     sg docker -c 'minikube start --driver=docker'
   else
-    fail "Minikube requires the current user to access the Docker daemon. Re-login after docker-group membership is added, then rerun with $([[ "$K8S_MODE" == "helm" ]] && echo --helm || echo --with-k8s)."
+    fail "Minikube requires the current user to access the Docker daemon. Re-login after docker-group membership is added, then rerun with $([[ "$K8S_MODE" == "helm" ]] && echo --helm || echo --k8s)."
   fi
 }
 
@@ -291,6 +291,7 @@ test_kubernetes_service() {
   local service_name="$1" service_url=""
   [[ -n "$service_name" ]] || { echo "WARNING: Could not identify a Kubernetes Service exposing port 8000; skipping endpoint tests." >&2; return 0; }
   service_url="$(minikube service "$service_name" --url 2>/dev/null | head -n 1 || true)"
+  echo "The Kubernetes cluster via MinikUbe hosted at "$service_url
   if [[ -z "$service_url" ]]; then
     echo "WARNING: Minikube did not return a URL for service ${service_name}. Check service type/ports with kubectl get svc." >&2
     return 0
@@ -321,7 +322,7 @@ if [[ "$K8S_MODE" != "none" ]]; then
   minikube image load "$IMAGE_NAME"
 
   if [[ "$K8S_MODE" == "manifests" ]]; then
-    [[ -f k8s/deployment.yml ]] || fail "--with-k8s requested but k8s/deployment.yml was not found."
+    [[ -f k8s/deployment.yml ]] || fail "--k8s requested but k8s/deployment.yml was not found."
     kubectl apply -f k8s/deployment.yml
     if [[ -f k8s/service.yml ]]; then kubectl apply -f k8s/service.yml; fi
     kubectl rollout status "deployment/${K8S_DEPLOYMENT}" --timeout=180s
@@ -344,7 +345,7 @@ if [[ "$K8S_MODE" != "none" ]]; then
     test_kubernetes_service "$K8S_HELM_SERVICE"
   fi
 else
-  log "[7/8] Kubernetes deployment skipped. Use --with-k8s or --helm to enable it."
+  log "[7/8] Kubernetes deployment skipped. Use --k8s or --helm to enable it."
 fi
 
 # ------------------------- Step 8: Traffic + summary -------------------------
