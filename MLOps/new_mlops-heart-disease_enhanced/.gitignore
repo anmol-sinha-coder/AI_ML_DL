@@ -1,5 +1,4 @@
 .venv/
-__pycache__/
 *.pyc
 .pytest_cache/
 .coverage
@@ -10,3 +9,43 @@ logs/
 reports/
 *.log
 # models/ and data/ are committed on purpose (clone-and-run, Docker build input)
+venv/
+env/
+ENV/
+
+# Python bytecode and cache
+__pycache__/
+*$py.class
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+*.zip

@@ -1,0 +1,5 @@
+# 2026-10-20T13:31:27+05:30
+# host: Anmol-Sinha
+$ minikube service heart-disease-service --url 2>/dev/null || minikube service heart-disease-api --url
+
+http://127.0.0.1:46419

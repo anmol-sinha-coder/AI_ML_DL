@@ -1,0 +1,11 @@
+# 2026-10-20T13:31:24+05:30
+# host: Anmol-Sinha
+$ curl -s http://localhost:3000/api/health; echo; curl -s -u admin:admin 'http://localhost:3000/api/search?query=Heart'
+
+{
+  "commit": "252761264e22ece57204b327f9130d3b44592c01",
+  "database": "ok",
+  "version": "10.3.3"
+}
+[{"id":1,"uid":"heart-disease-api","title":"Heart Disease MLOps - Monitoring","uri":"db/heart-disease-mlops-monitoring","url":"/d/heart-disease-api/heart-disease-mlops-monitoring","slug":"","type":"dash-db","tags":["fastapi","heart-disease","mlops"],"isStarred":false,"sortMeta":0}]
+# exit code: 0

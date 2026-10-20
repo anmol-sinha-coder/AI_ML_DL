@@ -1,0 +1,14 @@
+# 2026-10-20T13:31:23+05:30
+# host: Anmol-Sinha
+$ scripts/smoke_test.sh http://localhost:8000
+
+Smoke test against http://localhost:8000
+  [PASS] /health
+  [PASS] /model-info
+  response: {"prediction":0,"disease_risk":"Low Risk","probability_disease":0.1655,"confidence":0.8345,"model_name":"Logistic_Regression"}
+  [PASS] /predict returns prediction + confidence
+  [PASS] invalid input rejected (422)
+  [PASS] /metrics exposes prediction counters
+All smoke tests passed.
+
+# exit code: 0

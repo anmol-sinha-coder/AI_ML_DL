@@ -1,0 +1,51 @@
+# Resource names default to the release name; set to force a fixed name.
+fullnameOverride: ""
+
+replicaCount: 2
+
+image:
+  repository: heart-disease-api
+  tag: v1
+  # Never = use the image loaded into Minikube (`minikube image load`).
+  # Use IfNotPresent/Always when pulling from a registry.
+  pullPolicy: Never
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8000
+
+ingress:
+  enabled: false
+  className: nginx
+  host: heart.local
+
+autoscaling:            # needs the metrics-server addon: minikube addons enable metrics-server
+  enabled: false
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 70
+
+env:
+  LOG_LEVEL: INFO
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi
+
+probes:
+  readiness:
+    initialDelaySeconds: 5
+    periodSeconds: 10
+  liveness:
+    initialDelaySeconds: 10
+    periodSeconds: 15
+
+podAnnotations:
+  prometheus.io/scrape: "true"
+  prometheus.io/port: "8000"
+  prometheus.io/path: "/metrics"

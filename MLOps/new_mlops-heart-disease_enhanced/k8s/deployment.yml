@@ -1,5 +1,5 @@
-# Heart-disease API: Deployment + Service (LoadBalancer).
-# Image is built locally and loaded into Minikube (imagePullPolicy: Never).
+# Heart-disease API Deployment. The image is built locally and loaded into Minikube
+# (imagePullPolicy: Never). The Service is in service.yml, the Ingress in ingress.yml.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -57,19 +57,3 @@ spec:
             port: http
           initialDelaySeconds: 10
           periodSeconds: 15
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: heart-disease-service
-  labels:
-    app: heart-disease-api
-spec:
-  type: LoadBalancer
-  selector:
-    app: heart-disease-api
-  ports:
-  - name: http
-    protocol: TCP
-    port: 80
-    targetPort: http

@@ -22,7 +22,7 @@ import joblib
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel, Field, field_validator
-from prometheus_client import Counter, Histogram
+from prometheus_client import Counter, Gauge, Histogram
 from prometheus_fastapi_instrumentator import Instrumentator
 
 from src.config import FEATURES, MODEL_PATH, ROOT
@@ -61,6 +61,18 @@ PROBABILITY = Histogram("heart_prediction_probability", "Distribution of P(disea
 INFERENCE_SECONDS = Histogram("heart_inference_seconds", "Model inference latency",
                               buckets=[.001, .005, .01, .025, .05, .1, .25, .5])
 PREDICT_ERRORS = Counter("heart_predict_errors_total", "Failed prediction calls", ["reason"])
+RISK_BANDS = Counter("heart_risk_band_total", "Predictions by risk band (P<0.33 low, <0.66 medium)", ["band"])
+MODEL_LOADED = Gauge("heart_model_loaded", "1 if the model is loaded and serving")
+MODEL_INFO = Gauge("heart_model_info", "Served model metadata (value is always 1)",
+                   ["model_name", "sklearn_version", "mlflow_run_id"])
+# Input-feature distributions: lets Grafana show data drift against the training data
+INPUT_AGE = Histogram("heart_input_age", "Patient age in requests", buckets=[30, 40, 50, 60, 70, 80, 120])
+INPUT_CHOL = Histogram("heart_input_chol", "Cholesterol in requests",
+                       buckets=[150, 200, 250, 300, 350, 400, 700])
+INPUT_TRESTBPS = Histogram("heart_input_trestbps", "Resting BP in requests",
+                           buckets=[100, 120, 140, 160, 180, 200, 300])
+INPUT_THALACH = Histogram("heart_input_thalach", "Max heart rate in requests",
+                          buckets=[80, 100, 120, 140, 160, 180, 250])
 
 
 # ----------------------------------------------------------------- schema
@@ -110,14 +122,25 @@ async def lifespan(app: FastAPI):
         meta_path = path.with_name("model_metadata.json")
         if meta_path.exists():
             app.state.metadata = json.loads(meta_path.read_text())
+        MODEL_LOADED.set(1)
+        MODEL_INFO.clear()
+        MODEL_INFO.labels(model_name=str(app.state.metadata.get("model_name", "unknown")),
+                          sklearn_version=str(app.state.metadata.get("sklearn_version", "unknown")),
+                          mlflow_run_id=str(app.state.metadata.get("mlflow_run_id", "unknown"))[:8]).set(1)
         log_event("model_loaded", path=str(path), model=app.state.metadata.get("model_name", "unknown"))
     except Exception as exc:  # keep the process alive so /health can report it
+        MODEL_LOADED.set(0)
         log_event("model_load_failed", path=str(path), error=str(exc))
     yield
 
 
 app = FastAPI(title="Heart Disease Prediction API", version="2.0", lifespan=lifespan)
-Instrumentator().instrument(app).expose(app, include_in_schema=False)
+Instrumentator(
+    excluded_handlers=["/metrics"],
+    should_instrument_requests_inprogress=True,
+    inprogress_name="http_requests_inprogress",
+    inprogress_labels=True,
+).instrument(app).expose(app, include_in_schema=False)
 
 
 @app.middleware("http")
@@ -173,6 +196,11 @@ def predict(data: PatientData, request: Request):
     outcome = "disease" if prediction == 1 else "no_disease"
     PREDICTIONS.labels(outcome=outcome).inc()
     PROBABILITY.observe(proba)
+    RISK_BANDS.labels(band="low" if proba < 0.33 else "medium" if proba < 0.66 else "high").inc()
+    INPUT_AGE.observe(data.age)
+    INPUT_CHOL.observe(data.chol)
+    INPUT_TRESTBPS.observe(data.trestbps)
+    INPUT_THALACH.observe(data.thalach)
     confidence = proba if prediction == 1 else 1 - proba
     log_event("prediction", input=data.model_dump(), prediction=prediction,
               probability_disease=round(proba, 4))

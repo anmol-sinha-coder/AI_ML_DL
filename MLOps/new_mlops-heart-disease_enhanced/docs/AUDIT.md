@@ -12,7 +12,7 @@ Source of truth: *MLOps Assignment 01* (AIMLCZG523, 50 marks). Baseline = the `m
 | 4 | Packaging + reproducibility (7) | Training deps (MLflow, matplotlib) shipped in the API image; Python 3.10 in CI vs 3.12 in Docker; SQLAlchemy unpinned so a fresh install **breaks the MLflow server**; no model metadata | `requirements.txt` (full) + `requirements-serve.txt` (image); Python 3.12 everywhere; `sqlalchemy==2.0.29`, `setuptools==75.8.0` pinned; `model_metadata.json` (versions, metrics, params, run id); preprocessing lives inside the pickled pipeline |
 | 5 | CI/CD + tests (8) | Tests only checked that files exist (no data/model logic); second flake8 call used `--exit-zero` (never fails); training step needed an MLflow server; **no artifacts uploaded**; `pytest` bare would not import `src` | 36 network-free tests (cleaning, preprocessing, training, MLflow logging, API contract, logging, metrics, download fallbacks), 93 % coverage; strict flake8; pytest -> train -> docker build + smoke test; JUnit/coverage/model/mlruns/logs uploaded on every run; `pythonpath` fixed |
 | 6 | Containerisation (5) | `confidence` was P(disease) even when predicting "no disease"; `.dict()` deprecated; root user; no healthcheck/.dockerignore; no input validation | `/predict` returns prediction, `probability_disease`, `confidence` (of predicted class); range/enum validation (422); non-root image, HEALTHCHECK, `.dockerignore`; 503 when model missing |
-| 7 | Deployment (7) | README/script applied `k8s/deployment.yaml` but the file was `deployment.yml` (**kubectl apply would fail**); unused MLflow pod in the API manifest; no rollout wait/verification | `k8s/deployment.yaml` (2 replicas, probes, resources, rolling update, non-root, LoadBalancer), optional `ingress.yaml`, `mlflow.yaml`; script waits for rollout and smoke-tests the URL |
+| 7 | Deployment (7) | README/script applied `k8s/deployment.yaml` but the file was `deployment.yml` (**kubectl apply would fail**); unused MLflow pod in the API manifest; no rollout wait/verification | `k8s/deployment.yml` + `service.yml` (2 replicas, probes, resources, rolling update, non-root, LoadBalancer), optional `ingress.yml`, `hpa.yml`, `mlflow.yml`, plus a Helm chart; script waits for rollout and smoke-tests the URL |
 | 8 | Monitoring + logging (3) | **No request logging at all**; Grafana had no datasource and the dashboard JSON was never mounted | JSON request/prediction logging (stdout + rotating file); custom Prometheus metrics; Grafana datasource + dashboard auto-provisioned (8 panels) |
 | 9 | Documentation (2) | README mentioned a non-existent `deploy.sh`, no architecture diagram | README rewritten, `docs/architecture.png`, screenshot checklist, this audit |
 
@@ -36,3 +36,13 @@ smoke test + rollout status added; wrong K8s file name fixed.
 * `docker build` / `docker compose up`: the sandbox cannot pull from Docker Hub (HTTP 403). The Dockerfile uses only steps equivalent to those validated above.
 * Minikube/kubectl, Grafana UI rendering, GitHub Actions execution, and the live UCI download (blocked here; the fallback path is tested).
 * Screenshots, the 10-page report and the video are yours to produce (see `screenshots/README.md`).
+
+## 5. Monitoring fix (second review round)
+
+Reported symptom: Grafana panels "No data" with red error icons. Root cause reproduced with `promtool` on the shipped
+`prometheus.yml`: a stray Grafana key (`apiVersion: 1`) made Prometheus exit at start-up. Fixes: clean config,
+fixed datasource uid + `deleteDatasources`, 42-panel dashboard, additional API metrics, alert rules, a regression test
+(`test/test_monitoring_config.py`), a CI `promtool` check and `scripts/verify_monitoring.py`.
+Verified here against a real Prometheus 2.50.1 scraping the live API under generated traffic: every required dashboard
+query returns data. Not verifiable here: Grafana rendering itself (binary not downloadable), Helm (`helm lint`
+not available), Minikube.

@@ -1,0 +1,10 @@
+# 2026-10-20T13:31:26+05:30
+# host: Anmol-Sinha
+$ kubectl rollout status deployment --timeout=60s
+
+deployment "heart-api" successfully rolled out
+deployment "heart-disease-api" successfully rolled out
+deployment "heart-disease-release-api" successfully rolled out
+deployment "mlflow-server" successfully rolled out
+
+# exit code: 0

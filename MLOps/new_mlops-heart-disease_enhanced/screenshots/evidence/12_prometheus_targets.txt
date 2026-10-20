@@ -1,0 +1,9 @@
+# 2026-10-20T13:31:24+05:30
+# host: Anmol-Sinha
+$ curl -s http://localhost:9090/api/v1/targets | python3 -c "import sys,json; [print(t['labels']['job'], t['scrapeUrl'], t['health']) for t in json.load(sys.stdin)['data']['activeTargets']]"
+
+fastapi-ml-app http://api:8000/metrics up
+fastapi-ml-app-k8s http://192.168.49.2:30675/metrics down
+prometheus http://localhost:9090/metrics up
+
+# exit code: 0

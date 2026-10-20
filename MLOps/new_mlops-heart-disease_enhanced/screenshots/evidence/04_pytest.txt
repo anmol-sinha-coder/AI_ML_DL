@@ -1,0 +1,23 @@
+# 2026-10-20T13:30:27+05:30
+# host: Anmol-Sinha
+$ pytest -q --cov=src --cov-report=term
+
+...........................................                              [100%]
+
+---------- coverage: platform linux, python 3.12.3-final-0 -----------
+Name                     Stmts   Miss  Cover
+--------------------------------------------
+src/__init__.py              0      0   100%
+src/app.py                 142      7    95%
+src/config.py               24      1    96%
+src/data_processing.py      45      0   100%
+src/download_data.py        42      5    88%
+src/eda.py                  95      3    97%
+src/inference.py            25     10    60%
+src/train.py               143      8    94%
+--------------------------------------------
+TOTAL                      516     34    93%
+
+43 passed in 50.71s
+
+# exit code: 0

@@ -69,6 +69,40 @@ jobs:
             data/heart_disease_clean.csv
             data/eda_plots/
 
+  validate-deploy-configs:
+    name: Validate Compose, Prometheus, Grafana and Helm configs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Docker Compose file
+        run: docker compose config -q
+
+      - name: Prometheus config and alert rules (promtool)
+        run: |
+          docker run --rm --entrypoint promtool \
+            -v "$PWD/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro" \
+            -v "$PWD/monitoring/alert_rules.yml:/etc/prometheus/alert_rules.yml:ro" \
+            prom/prometheus:v2.50.1 check config /etc/prometheus/prometheus.yml
+
+      - name: Set up Helm
+        uses: azure/setup-helm@v4
+        with:
+          version: v3.16.2
+
+      - name: Helm lint and template
+        run: |
+          helm lint helm/heart-disease-app
+          helm template heart-disease-api helm/heart-disease-app > rendered.yaml
+          helm template heart-disease-api helm/heart-disease-app --set ingress.enabled=true --set autoscaling.enabled=true > /dev/null
+
+      - name: Upload rendered Helm manifests
+        uses: actions/upload-artifact@v4
+        with:
+          name: helm-rendered
+          path: rendered.yaml
+
   docker-build-test:
     name: Build and test the Docker image
     runs-on: ubuntu-latest

@@ -1,0 +1,11 @@
+# 2026-10-20T13:31:22+05:30
+# host: Anmol-Sinha
+$ docker compose ps
+
+NAME            IMAGE                           COMMAND                  SERVICE      CREATED              STATUS                        PORTS
+grafana         grafana/grafana:10.3.3          "/run.sh"                grafana      About a minute ago   Up About a minute             0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+ml_api          heart-disease-api:v1            "uvicorn src.app:app…"   api          About a minute ago   Up About a minute (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+mlflow_server   ghcr.io/mlflow/mlflow:v2.11.1   "mlflow server --bac…"   mlflow       3 minutes ago        Up 3 minutes (healthy)        0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp
+prometheus      prom/prometheus:v2.50.1         "/bin/prometheus --c…"   prometheus   About a minute ago   Up About a minute             0.0.0.0:9090->9090/tcp, [::]:9090->9090/tcp
+
+# exit code: 0

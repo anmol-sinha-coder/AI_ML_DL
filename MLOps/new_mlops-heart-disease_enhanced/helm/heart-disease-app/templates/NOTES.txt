@@ -1,0 +1,10 @@
+Heart Disease API released as {{ include "heart.fullname" . }}.
+
+  kubectl rollout status deployment/{{ include "heart.fullname" . }}
+  kubectl get pods,svc -l app.kubernetes.io/instance={{ .Release.Name }}
+
+Get the URL on Minikube:
+  minikube service {{ include "heart.fullname" . }} --url
+or port-forward:
+  kubectl port-forward svc/{{ include "heart.fullname" . }} 18080:{{ .Values.service.port }}
+  curl http://localhost:18080/health

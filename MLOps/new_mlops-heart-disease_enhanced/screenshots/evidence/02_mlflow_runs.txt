@@ -1,0 +1,61 @@
+# 2026-10-20T13:31:21+05:30
+# host: Anmol-Sinha
+$ python3 - <<'PY'
+import json, urllib.request
+req = urllib.request.Request('http://localhost:5000/api/2.0/mlflow/runs/search', data=json.dumps({'experiment_ids': ['1']}).encode(), headers={'Content-Type': 'application/json'})
+for r in json.load(urllib.request.urlopen(req))['runs']:
+    m = {x['key']: round(x['value'], 4) for x in r['data']['metrics']}
+    t = {x['key']: x['value'] for x in r['data']['tags']}
+    print(r['info']['run_name'], 'champion=' + t.get('champion', 'false'))
+    print('   params :', {x['key']: x['value'] for x in r['data']['params']})
+    print('   metrics:', {k: m[k] for k in sorted(m)})
+PY
+cat models/model_metadata.json
+
+Random_Forest champion=false
+   params : {'max_depth': '5', 'min_samples_leaf': '3', 'n_estimators': '100', 'cv_folds': '5', 'test_size': '0.2', 'random_state': '42', 'n_rows': '303', 'grid_size': '16'}
+   metrics: {'cv_accuracy': 0.8056, 'cv_accuracy_std': 0.0225, 'cv_precision': 0.8109, 'cv_precision_std': 0.059, 'cv_recall': 0.7644, 'cv_recall_std': 0.0894, 'cv_roc_auc': 0.9013, 'cv_roc_auc_std': 0.0236, 'test_accuracy': 0.8689, 'test_precision': 0.8333, 'test_recall': 0.8929, 'test_roc_auc': 0.947}
+Logistic_Regression champion=true
+   params : {'C': '1.0', 'cv_folds': '5', 'test_size': '0.2', 'random_state': '42', 'n_rows': '303', 'grid_size': '4'}
+   metrics: {'cv_accuracy': 0.8471, 'cv_accuracy_std': 0.01, 'cv_precision': 0.8768, 'cv_precision_std': 0.0542, 'cv_recall': 0.7834, 'cv_recall_std': 0.0459, 'cv_roc_auc': 0.9025, 'cv_roc_auc_std': 0.0144, 'test_accuracy': 0.8852, 'test_precision': 0.8387, 'test_recall': 0.9286, 'test_roc_auc': 0.9665}
+{
+  "model_name": "Logistic_Regression",
+  "trained_at": "2026-10-20T07:59:19+00:00",
+  "mlflow_run_id": "df80476a75f54dcc9720ed92e87aa175",
+  "best_params": {
+    "C": 1.0
+  },
+  "metrics": {
+    "cv_accuracy": 0.8471,
+    "cv_accuracy_std": 0.01,
+    "cv_precision": 0.8768,
+    "cv_precision_std": 0.0542,
+    "cv_recall": 0.7834,
+    "cv_recall_std": 0.0459,
+    "cv_roc_auc": 0.9025,
+    "cv_roc_auc_std": 0.0144,
+    "test_accuracy": 0.8852,
+    "test_precision": 0.8387,
+    "test_recall": 0.9286,
+    "test_roc_auc": 0.9665
+  },
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak",
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "sklearn_version": "1.4.1.post1",
+  "python_version": "3.12.3",
+  "n_training_rows": 242
+}
+# exit code: 0

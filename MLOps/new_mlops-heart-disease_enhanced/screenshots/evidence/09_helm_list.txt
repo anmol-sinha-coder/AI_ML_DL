@@ -1,0 +1,8 @@
+# 2026-10-20T13:31:25+05:30
+# host: Anmol-Sinha
+$ helm list 2>/dev/null || echo 'helm release not used'
+
+NAME                 	NAMESPACE	REVISION	UPDATED                                	STATUS	CHART                  	APP VERSION
+heart-disease-release	default  	2       	2026-10-20 00:45:38.740443818 +0530 IST	failed	heart-disease-app-0.1.0	1.0.0      
+
+# exit code: 0

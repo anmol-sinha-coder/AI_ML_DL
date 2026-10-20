@@ -1,0 +1,19 @@
+apiVersion: 1
+
+# Remove any hand-made / older "Prometheus" datasource first so the fixed uid below always wins.
+deleteDatasources:
+  - name: Prometheus
+    orgId: 1
+
+datasources:
+  - name: Prometheus
+    uid: prometheus
+    type: prometheus
+    access: proxy
+    orgId: 1
+    url: http://prometheus:9090
+    isDefault: true
+    editable: true
+    jsonData:
+      timeInterval: 15s
+      httpMethod: POST

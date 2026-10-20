@@ -1,42 +1,149 @@
 {
-  "annotations": {
-    "list": []
-  },
-  "editable": true,
-  "id": null,
   "uid": "heart-disease-api",
-  "title": "Heart Disease Model Monitoring",
+  "title": "Heart Disease MLOps - Monitoring",
+  "description": "Traffic, latency, errors, model behaviour, input drift and resources for the heart-disease API (Docker Compose and Kubernetes deployments).",
   "tags": [
-    "mlops"
+    "mlops",
+    "heart-disease",
+    "fastapi"
   ],
   "timezone": "browser",
+  "editable": true,
+  "graphTooltip": 1,
   "schemaVersion": 39,
-  "version": 2,
-  "refresh": "5s",
+  "version": 3,
+  "refresh": "10s",
   "time": {
     "from": "now-15m",
     "to": "now"
   },
+  "annotations": {
+    "list": []
+  },
+  "links": [],
+  "templating": {
+    "list": [
+      {
+        "name": "deployment",
+        "label": "Deployment",
+        "type": "query",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "query": {
+          "query": "label_values(http_requests_total{job=~\"fastapi-ml-app.*\"}, deployment)",
+          "refId": "v1"
+        },
+        "definition": "label_values(http_requests_total{job=~\"fastapi-ml-app.*\"}, deployment)",
+        "refresh": 2,
+        "includeAll": true,
+        "multi": true,
+        "allValue": ".*",
+        "sort": 1,
+        "current": {
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
+        }
+      },
+      {
+        "name": "instance",
+        "label": "Instance",
+        "type": "query",
+        "datasource": {
+          "type": "prometheus",
+          "uid": "prometheus"
+        },
+        "query": {
+          "query": "label_values(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\"}, instance)",
+          "refId": "v2"
+        },
+        "definition": "label_values(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\"}, instance)",
+        "refresh": 2,
+        "includeAll": true,
+        "multi": true,
+        "allValue": ".*",
+        "sort": 1,
+        "current": {
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
+        }
+      }
+    ]
+  },
   "panels": [
     {
       "id": 1,
-      "title": "API request rate (req/s)",
-      "type": "timeseries",
+      "type": "row",
+      "title": "Overview",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 2,
+      "type": "stat",
+      "title": "Targets up",
+      "description": "Scrape targets Prometheus can reach (1 per running API deployment)",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
         "x": 0,
-        "y": 0,
-        "w": 8,
-        "h": 8
+        "y": 1,
+        "w": 4,
+        "h": 4
       },
       "fieldConfig": {
         "defaults": {
-          "unit": "reqps"
+          "unit": "none",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
         },
         "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
       },
       "targets": [
         {
@@ -45,62 +152,59 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "sum by (handler) (rate(http_requests_total[1m]))",
-          "legendFormat": "{{handler}}"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Latency p95 (s)",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "x": 8,
-        "y": 0,
-        "w": 8,
-        "h": 8
-      },
-      "fieldConfig": {
-        "defaults": {
-          "unit": "s"
-        },
-        "overrides": []
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "datasource": {
-            "type": "prometheus",
-            "uid": "prometheus"
-          },
-          "expr": "histogram_quantile(0.95, sum by (le) (rate(http_request_duration_seconds_bucket[1m])))",
-          "legendFormat": "p95"
+          "expr": "sum(up{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\"})",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
         }
       ]
     },
     {
       "id": 3,
-      "title": "Error rate (4xx / 5xx per s)",
-      "type": "timeseries",
+      "type": "stat",
+      "title": "Request rate",
+      "description": "",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
-        "x": 16,
-        "y": 0,
-        "w": 8,
-        "h": 8
+        "x": 4,
+        "y": 1,
+        "w": 4,
+        "h": 4
       },
       "fieldConfig": {
         "defaults": {
-          "unit": "reqps"
+          "unit": "reqps",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 2
         },
         "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
       },
       "targets": [
         {
@@ -109,62 +213,59 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "sum by (status) (rate(http_requests_total{status=~\"4xx|5xx\"}[1m]))",
-          "legendFormat": "{{status}}"
+          "expr": "sum(rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
         }
       ]
     },
     {
       "id": 4,
-      "title": "Predictions by outcome (per min)",
-      "type": "timeseries",
-      "datasource": {
-        "type": "prometheus",
-        "uid": "prometheus"
-      },
-      "gridPos": {
-        "x": 0,
-        "y": 8,
-        "w": 8,
-        "h": 8
-      },
-      "fieldConfig": {
-        "defaults": {
-          "unit": "short"
-        },
-        "overrides": []
-      },
-      "targets": [
-        {
-          "refId": "A",
-          "datasource": {
-            "type": "prometheus",
-            "uid": "prometheus"
-          },
-          "expr": "sum by (outcome) (increase(heart_predictions_total[1m]))",
-          "legendFormat": "{{outcome}}"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Model inference latency p95 (s)",
-      "type": "timeseries",
+      "type": "stat",
+      "title": "Total requests (range)",
+      "description": "",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
         "x": 8,
-        "y": 8,
-        "w": 8,
-        "h": 8
+        "y": 1,
+        "w": 4,
+        "h": 4
       },
       "fieldConfig": {
         "defaults": {
-          "unit": "s"
+          "unit": "short",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 0
         },
         "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
       },
       "targets": [
         {
@@ -173,30 +274,136 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "histogram_quantile(0.95, sum by (le) (rate(heart_inference_seconds_bucket[5m])))",
-          "legendFormat": "p95 inference"
+          "expr": "sum(increase(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "stat",
+      "title": "Error ratio (4xx+5xx)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 0.05
+              },
+              {
+                "color": "red",
+                "value": 0.2
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\", status=~\"4xx|5xx\"}[$__rate_interval])) / clamp_min(sum(rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
         }
       ]
     },
     {
       "id": 6,
-      "title": "Mean predicted P(disease)",
-      "type": "timeseries",
+      "type": "stat",
+      "title": "Latency p95",
+      "description": "",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
         "x": 16,
-        "y": 8,
-        "w": 8,
-        "h": 8
+        "y": 1,
+        "w": 4,
+        "h": 4
       },
       "fieldConfig": {
         "defaults": {
-          "unit": "percentunit"
+          "unit": "s",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "orange",
+                "value": 0.25
+              },
+              {
+                "color": "red",
+                "value": 0.5
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 3
         },
         "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
       },
       "targets": [
         {
@@ -205,24 +412,1307 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "sum(rate(heart_prediction_probability_sum[5m])) / sum(rate(heart_prediction_probability_count[5m]))",
-          "legendFormat": "mean P(disease)"
+          "expr": "histogram_quantile(0.95, sum by (le) (rate(http_request_duration_highr_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
         }
       ]
     },
     {
       "id": 7,
-      "title": "API up",
       "type": "stat",
+      "title": "Predictions (range)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 20,
+        "y": 1,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(increase(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "stat",
+      "title": "High-risk share",
+      "description": "Share of predictions classified as heart disease",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
         "x": 0,
-        "y": 16,
-        "w": 6,
+        "y": 5,
+        "w": 4,
         "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(increase(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\", outcome=\"disease\"}[$__range])) / clamp_min(sum(increase(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range])), 1)",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "stat",
+      "title": "Mean P(disease)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 4,
+        "y": 5,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 1
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(increase(heart_prediction_probability_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range])) / clamp_min(sum(increase(heart_prediction_probability_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range])), 1)",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "stat",
+      "title": "Model loaded",
+      "description": "1 = model loaded on every selected instance",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 5,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "red",
+                "value": null
+              },
+              {
+                "color": "green",
+                "value": 1
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "min(heart_model_loaded{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"})",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "stat",
+      "title": "In-flight requests",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 5,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(http_requests_inprogress{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"})",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "stat",
+      "title": "Uptime (oldest instance)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 5,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "max(time() - process_start_time_seconds{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"})",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "stat",
+      "title": "Active alerts",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 20,
+        "y": 5,
+        "w": 4,
+        "h": 4
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 1
+              }
+            ]
+          },
+          "color": {
+            "mode": "thresholds"
+          },
+          "decimals": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "colorMode": "value",
+        "graphMode": "area",
+        "textMode": "auto",
+        "orientation": "auto"
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "count(ALERTS{alertstate=\"firing\"}) or vector(0)",
+          "legendFormat": "",
+          "instant": false,
+          "range": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "row",
+      "title": "Traffic",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 9,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 15,
+      "type": "timeseries",
+      "title": "Request rate by endpoint",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 10,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "reqps",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "normal",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (handler) (rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{handler}}"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "timeseries",
+      "title": "Request rate by status class",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 10,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "reqps",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "normal",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (status) (rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{status}}"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "type": "timeseries",
+      "title": "Request rate by instance",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 18,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "reqps",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (deployment, instance) (rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{deployment}} / {{instance}}"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "timeseries",
+      "title": "Avg request size",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 18,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(http_request_size_bytes_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(http_request_size_bytes_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "request"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "type": "timeseries",
+      "title": "Avg response size",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 18,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(http_response_size_bytes_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(http_response_size_bytes_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "response"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "row",
+      "title": "Latency",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 26,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 21,
+      "type": "timeseries",
+      "title": "HTTP latency percentiles (all endpoints)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 27,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 5,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.5, sum by (le) (rate(http_request_duration_highr_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p50"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.95, sum by (le) (rate(http_request_duration_highr_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p95"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.99, sum by (le) (rate(http_request_duration_highr_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p99"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "type": "heatmap",
+      "title": "HTTP latency heatmap",
+      "description": "Colour = number of requests in each latency bucket",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 27,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "scaleDistribution": {
+              "type": "linear"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "calculate": false,
+        "yAxis": {
+          "unit": "s",
+          "axisPlacement": "left"
+        },
+        "color": {
+          "scheme": "Oranges",
+          "mode": "scheme",
+          "fill": "dark-orange",
+          "steps": 64
+        },
+        "cellGap": 1,
+        "legend": {
+          "show": true
+        },
+        "tooltip": {
+          "show": true
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (le) (increase(http_request_duration_highr_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{le}}",
+          "format": "heatmap"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "type": "timeseries",
+      "title": "Average latency by endpoint",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 35,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (handler) (rate(http_request_duration_seconds_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / sum by (handler) (rate(http_request_duration_seconds_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{handler}}"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "type": "timeseries",
+      "title": "Model inference latency",
+      "description": "Time spent inside model.predict_proba only",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 35,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 5,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.5, sum by (le) (rate(heart_inference_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p50"
+        },
+        {
+          "refId": "B",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.95, sum by (le) (rate(heart_inference_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p95"
+        },
+        {
+          "refId": "C",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "histogram_quantile(0.99, sum by (le) (rate(heart_inference_seconds_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])))",
+          "legendFormat": "p99"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "type": "row",
+      "title": "Errors",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 43,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 26,
+      "type": "timeseries",
+      "title": "4xx / 5xx rate by endpoint",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 44,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "reqps",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "normal",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (handler, status) (rate(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\", status=~\"4xx|5xx\"}[$__rate_interval]))",
+          "legendFormat": "{{handler}} {{status}}"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "type": "timeseries",
+      "title": "Prediction errors by reason",
+      "description": "Counter appears only after the first failure",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 44,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "reqps",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (reason) (rate(heart_predict_errors_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{reason}}"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "type": "table",
+      "title": "Requests by endpoint and status (range)",
+      "description": "Totals for the selected time range",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 44,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      },
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true
+            },
+            "renameByName": {
+              "Value": "requests"
+            }
+          }
+        }
+      ],
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (handler, method, status) (increase(http_requests_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "",
+          "instant": true,
+          "range": false,
+          "format": "table"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "type": "row",
+      "title": "Model behaviour",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 52,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 30,
+      "type": "timeseries",
+      "title": "Predictions per minute by outcome",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 53,
+        "w": 9,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "normal",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (outcome) (rate(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) * 60",
+          "legendFormat": "{{outcome}}"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "type": "piechart",
+      "title": "Risk bands (range)",
+      "description": "low < 0.33 <= medium < 0.66 <= high",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 9,
+        "y": 53,
+        "w": 5,
+        "h": 8
       },
       "fieldConfig": {
         "defaults": {
@@ -230,6 +1720,25 @@
         },
         "overrides": []
       },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "pieType": "donut",
+        "legend": {
+          "displayMode": "table",
+          "placement": "right",
+          "showLegend": true,
+          "values": [
+            "value",
+            "percent"
+          ]
+        }
+      },
       "targets": [
         {
           "refId": "A",
@@ -237,30 +1746,352 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "up{job=\"fastapi-ml-app\"}",
-          "legendFormat": "up"
+          "expr": "sum by (band) (increase(heart_risk_band_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "{{band}}",
+          "instant": true,
+          "range": false
         }
       ]
     },
     {
-      "id": 8,
-      "title": "Total predictions",
-      "type": "stat",
+      "id": 32,
+      "type": "timeseries",
+      "title": "P(disease): mean over time",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 14,
+        "y": 53,
+        "w": 10,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(heart_prediction_probability_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(heart_prediction_probability_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "mean P(disease)"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "type": "bargauge",
+      "title": "P(disease) distribution (cumulative, range)",
+      "description": "Number of predictions with P(disease) up to each bound",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 61,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "color": {
+            "mode": "continuous-BlPu"
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "horizontal",
+        "displayMode": "gradient",
+        "showUnfilled": true
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (le) (increase(heart_prediction_probability_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "<= {{le}}",
+          "instant": true,
+          "range": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "type": "table",
+      "title": "Served model",
+      "description": "Which model/version each instance is serving",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 8,
+        "y": 61,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      },
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "Value": true,
+              "__name__": true,
+              "job": true
+            },
+            "renameByName": {}
+          }
+        }
+      ],
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "heart_model_info{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}",
+          "legendFormat": "",
+          "instant": true,
+          "range": false,
+          "format": "table"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "type": "timeseries",
+      "title": "Predicted-positive ratio",
+      "description": "A sudden shift can indicate data drift",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 16,
+        "y": 61,
+        "w": 8,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\", outcome=\"disease\"}[$__rate_interval])) / clamp_min(sum(rate(heart_predictions_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "disease share"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "type": "row",
+      "title": "Input data monitoring (drift watch)",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 69,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 37,
+      "type": "timeseries",
+      "title": "Mean age (years)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 70,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(heart_input_age_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(heart_input_age_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "mean age"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "type": "timeseries",
+      "title": "Mean cholesterol (mg/dl)",
+      "description": "",
       "datasource": {
         "type": "prometheus",
         "uid": "prometheus"
       },
       "gridPos": {
         "x": 6,
-        "y": 16,
+        "y": 70,
         "w": 6,
-        "h": 4
+        "h": 8
       },
       "fieldConfig": {
         "defaults": {
-          "unit": "short"
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
         },
         "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
       },
       "targets": [
         {
@@ -269,8 +2100,602 @@
             "type": "prometheus",
             "uid": "prometheus"
           },
-          "expr": "sum(heart_predictions_total)",
-          "legendFormat": "total"
+          "expr": "sum(rate(heart_input_chol_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(heart_input_chol_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "mean chol"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "type": "timeseries",
+      "title": "Mean resting BP (mm Hg)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 70,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(heart_input_trestbps_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(heart_input_trestbps_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "mean trestbps"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "type": "timeseries",
+      "title": "Mean max heart rate (bpm)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 18,
+        "y": 70,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum(rate(heart_input_thalach_sum{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])) / clamp_min(sum(rate(heart_input_thalach_count{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval])), 0.0001)",
+          "legendFormat": "mean thalach"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "bargauge",
+      "title": "Age distribution (cumulative, range)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 78,
+        "w": 12,
+        "h": 7
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "color": {
+            "mode": "continuous-BlPu"
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "horizontal",
+        "displayMode": "gradient",
+        "showUnfilled": true
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (le) (increase(heart_input_age_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "<= {{le}}",
+          "instant": true,
+          "range": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "type": "bargauge",
+      "title": "Cholesterol distribution (cumulative, range)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 78,
+        "w": 12,
+        "h": 7
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "color": {
+            "mode": "continuous-BlPu"
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "orientation": "horizontal",
+        "displayMode": "gradient",
+        "showUnfilled": true
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (le) (increase(heart_input_chol_bucket{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__range]))",
+          "legendFormat": "<= {{le}}",
+          "instant": true,
+          "range": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "type": "row",
+      "title": "Process resources",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 85,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 44,
+      "type": "timeseries",
+      "title": "CPU usage (cores)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 86,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "none",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (deployment, instance) (rate(process_cpu_seconds_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "{{deployment}} / {{instance}}"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "type": "timeseries",
+      "title": "Memory (RSS)",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 6,
+        "y": 86,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (deployment, instance) (process_resident_memory_bytes{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"})",
+          "legendFormat": "{{deployment}} / {{instance}}"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "type": "timeseries",
+      "title": "Open file descriptors",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 86,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          },
+          "min": 0
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (deployment, instance) (process_open_fds{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"})",
+          "legendFormat": "{{deployment}} / {{instance}}"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "type": "timeseries",
+      "title": "Python GC collections / s",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 18,
+        "y": 86,
+        "w": 6,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "sum by (generation) (rate(python_gc_collections_total{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\", instance=~\"$instance\"}[$__rate_interval]))",
+          "legendFormat": "gen {{generation}}"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "type": "row",
+      "title": "Deployments and scrape health",
+      "collapsed": false,
+      "gridPos": {
+        "x": 0,
+        "y": 94,
+        "w": 24,
+        "h": 1
+      },
+      "panels": []
+    },
+    {
+      "id": 49,
+      "type": "table",
+      "title": "Scrape targets",
+      "description": "1 = Prometheus can scrape the API of this deployment",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 0,
+        "y": 95,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "options": {
+        "showHeader": true,
+        "cellHeight": "sm"
+      },
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {
+              "Time": true,
+              "__name__": true
+            },
+            "renameByName": {
+              "Value": "up"
+            }
+          }
+        }
+      ],
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "up{job=~\"fastapi-ml-app.*\"}",
+          "legendFormat": "",
+          "instant": true,
+          "range": false,
+          "format": "table"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "type": "timeseries",
+      "title": "Scrape duration",
+      "description": "",
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "gridPos": {
+        "x": 12,
+        "y": 95,
+        "w": 12,
+        "h": 8
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineWidth": 2,
+            "fillOpacity": 12,
+            "showPoints": "never",
+            "spanNulls": true,
+            "stacking": {
+              "mode": "none",
+              "group": "A"
+            }
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "legend": {
+          "displayMode": "table",
+          "placement": "bottom",
+          "showLegend": true,
+          "calcs": [
+            "mean",
+            "max"
+          ]
+        },
+        "tooltip": {
+          "mode": "multi",
+          "sort": "desc"
+        }
+      },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": {
+            "type": "prometheus",
+            "uid": "prometheus"
+          },
+          "expr": "scrape_duration_seconds{job=~\"fastapi-ml-app.*\", deployment=~\"$deployment\"}",
+          "legendFormat": "{{deployment}} / {{instance}}"
         }
       ]
     }

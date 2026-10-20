@@ -1,0 +1,31 @@
+# 2026-10-20T13:31:23+05:30
+# host: Anmol-Sinha
+$ docker compose logs --tail 25 api
+
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "prediction", "input": {"age": 54.0, "sex": 0.0, "cp": 3.0, "trestbps": 135.0, "chol": 304.0, "fbs": 1.0, "restecg": 0.0, "thalach": 170.0, "exang": 0.0, "oldpeak": 0.0, "slope": 1.0, "ca": 0.0, "thal": 3.0}, "prediction": 0, "probability_disease": 0.0099}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "prediction", "input": {"age": 57.0, "sex": 1.0, "cp": 4.0, "trestbps": 132.0, "chol": 207.0, "fbs": 0.0, "restecg": 0.0, "thalach": 168.0, "exang": 1.0, "oldpeak": 0.0, "slope": 1.0, "ca": 0.0, "thal": 7.0}, "prediction": 1, "probability_disease": 0.5253}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "d453ecb45d7e", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 80.99, "client": "172.20.0.1"}
+ml_api  | INFO:     172.20.0.1:35134 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "eda68f1f529b", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 8.69, "client": "172.20.0.1"}
+ml_api  | INFO:     172.20.0.1:35160 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "b2701ed8b826", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 83.24, "client": "172.20.0.1"}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "7b62cbc082e7", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 117.59, "client": "172.20.0.1"}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "b4ed49457c4b", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 84.44, "client": "172.20.0.1"}
+ml_api  | INFO:     172.20.0.1:35142 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | INFO:     172.20.0.1:35108 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | INFO:     172.20.0.1:35136 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "prediction", "input": {"age": 50.0, "sex": 0.0, "cp": 3.0, "trestbps": 120.0, "chol": 219.0, "fbs": 0.0, "restecg": 0.0, "thalach": 158.0, "exang": 0.0, "oldpeak": 1.6, "slope": 2.0, "ca": 0.0, "thal": 3.0}, "prediction": 0, "probability_disease": 0.0339}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "be0d1c98d461", "method": "POST", "path": "/predict", "status": 422, "latency_ms": 5.1, "client": "172.20.0.1"}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "prediction", "input": {"age": 65.0, "sex": 1.0, "cp": 4.0, "trestbps": 120.0, "chol": 177.0, "fbs": 0.0, "restecg": 0.0, "thalach": 140.0, "exang": 0.0, "oldpeak": 0.4, "slope": 1.0, "ca": 0.0, "thal": 7.0}, "prediction": 0, "probability_disease": 0.4344}
+ml_api  | INFO:     172.20.0.1:35220 - "POST /predict HTTP/1.1" 422 Unprocessable Entity
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "prediction", "input": {"age": 71.0, "sex": 0.0, "cp": 3.0, "trestbps": 110.0, "chol": 265.0, "fbs": 1.0, "restecg": 2.0, "thalach": 130.0, "exang": 0.0, "oldpeak": 0.0, "slope": 1.0, "ca": 1.0, "thal": 3.0}, "prediction": 0, "probability_disease": 0.0787}
+ml_api  | {"ts": "2026-10-20T08:01:23+0000", "event": "request", "request_id": "61bff7b8465c", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 92.1, "client": "172.20.0.1"}
+ml_api  | INFO:     172.20.0.1:35172 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | {"ts": "2026-10-20T08:01:24+0000", "event": "prediction", "input": {"age": 51.0, "sex": 1.0, "cp": 3.0, "trestbps": 94.0, "chol": 227.0, "fbs": 0.0, "restecg": 0.0, "thalach": 154.0, "exang": 1.0, "oldpeak": 0.0, "slope": 1.0, "ca": 1.0, "thal": 7.0}, "prediction": 0, "probability_disease": 0.4873}
+ml_api  | {"ts": "2026-10-20T08:01:24+0000", "event": "request", "request_id": "fa92cb315ff1", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 136.92, "client": "172.20.0.1"}
+ml_api  | {"ts": "2026-10-20T08:01:24+0000", "event": "request", "request_id": "1931466a85ec", "method": "POST", "path": "/predict", "status": 200, "latency_ms": 139.51, "client": "172.20.0.1"}
+ml_api  | {"ts": "2026-10-20T08:01:24+0000", "event": "prediction", "input": {"age": 58.0, "sex": 1.0, "cp": 4.0, "trestbps": 150.0, "chol": 270.0, "fbs": 0.0, "restecg": 2.0, "thalach": 111.0, "exang": 1.0, "oldpeak": 0.8, "slope": 1.0, "ca": 0.0, "thal": 7.0}, "prediction": 1, "probability_disease": 0.8955}
+ml_api  | INFO:     172.20.0.1:35168 - "POST /predict HTTP/1.1" 200 OK
+ml_api  | {"ts": "2026-10-20T08:01:24+0000", "event": "prediction", "input": {"age": 47.0, "sex": 1.0, "cp": 4.0, "trestbps": 112.0, "chol": 204.0, "fbs": 0.0, "restecg": 0.0, "thalach": 143.0, "exang": 0.0, "oldpeak": 0.1, "slope": 1.0, "ca": 0.0, "thal": 3.0}, "prediction": 0, "probability_disease": 0.1568}
+
+# exit code: 0

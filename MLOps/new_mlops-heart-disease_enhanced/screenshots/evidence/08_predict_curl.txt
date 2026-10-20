@@ -1,0 +1,13 @@
+# 2026-10-20T13:31:23+05:30
+# host: Anmol-Sinha
+$ curl -s -i -X POST http://localhost:8000/predict -H 'Content-Type: application/json' -d '{"age":63,"sex":1,"cp":1,"trestbps":145,"chol":233,"fbs":1,"restecg":2,"thalach":150,"exang":0,"oldpeak":2.3,"slope":3,"ca":0,"thal":6}'
+
+HTTP/1.1 200 OK
+date: Tue, 20 Oct 2026 08:01:22 GMT
+server: uvicorn
+content-length: 126
+content-type: application/json
+x-request-id: 1ec2b0fd89bf
+
+{"prediction":0,"disease_risk":"Low Risk","probability_disease":0.1655,"confidence":0.8345,"model_name":"Logistic_Regression"}
+# exit code: 0

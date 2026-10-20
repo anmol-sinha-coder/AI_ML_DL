@@ -1,6 +1,6 @@
 # Optional: expose through an Ingress instead of the LoadBalancer.
 #   minikube addons enable ingress
-#   kubectl apply -f k8s/ingress.yaml
+#   kubectl apply -f k8s/ingress.yml
 #   curl -H "Host: heart.local" http://$(minikube ip)/health
 apiVersion: networking.k8s.io/v1
 kind: Ingress

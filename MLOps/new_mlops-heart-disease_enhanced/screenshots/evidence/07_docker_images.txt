@@ -1,0 +1,7 @@
+# 2026-10-20T13:31:21+05:30
+# host: Anmol-Sinha
+$ docker images | grep -E 'REPOSITORY|heart-disease'
+
+heart-disease-api:v1                                                                                  cd47ba494502        676MB          154MB   U    
+
+# exit code: 0

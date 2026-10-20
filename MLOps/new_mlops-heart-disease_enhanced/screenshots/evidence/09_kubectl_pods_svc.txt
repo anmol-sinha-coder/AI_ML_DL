@@ -1,0 +1,30 @@
+# 2026-10-20T13:31:24+05:30
+# host: Anmol-Sinha
+$ kubectl get nodes,pods,svc,deploy -o wide
+
+NAME            STATUS   ROLES           AGE   VERSION   INTERNAL-IP    EXTERNAL-IP   OS-IMAGE                         KERNEL-VERSION                              CONTAINER-RUNTIME
+node/minikube   Ready    control-plane   8d    v1.37.0   192.168.49.2   <none>        Debian GNU/Linux 12 (bookworm)   6.18.33.1-microsoft-standard-WSL2 (amd64)   containerd://2.3.4
+
+NAME                                             READY   STATUS    RESTARTS      AGE   IP            NODE       NOMINATED NODE   READINESS GATES
+pod/heart-api-558b444f7d-gxpk2                   1/1     Running   2 (13h ago)   26h   10.244.0.3    minikube   <none>           <none>
+pod/heart-api-558b444f7d-kpfk8                   1/1     Running   2 (13h ago)   26h   10.244.0.2    minikube   <none>           <none>
+pod/heart-disease-api-7cd9547bd7-5hws8           1/1     Running   0             84m   10.244.0.19   minikube   <none>           <none>
+pod/heart-disease-api-7cd9547bd7-85g6l           1/1     Running   0             85m   10.244.0.18   minikube   <none>           <none>
+pod/heart-disease-release-api-55c676bdc9-6r227   1/1     Running   0             12h   10.244.0.10   minikube   <none>           <none>
+pod/heart-disease-release-api-55c676bdc9-7lmdt   1/1     Running   0             12h   10.244.0.11   minikube   <none>           <none>
+pod/mlflow-server-d74cb8dcf-48khk                1/1     Running   1 (13h ago)   22h   10.244.0.4    minikube   <none>           <none>
+
+NAME                                    TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE   SELECTOR
+service/heart-api-service               LoadBalancer   10.102.247.254   <pending>     80:30302/TCP   26h   app=heart-api
+service/heart-disease-release-service   LoadBalancer   10.107.221.236   <pending>     80:31249/TCP   13h   app=heart-disease-release-api
+service/heart-disease-service           LoadBalancer   10.97.190.221    <pending>     80:30675/TCP   98m   app=heart-disease-api
+service/kubernetes                      ClusterIP      10.96.0.1        <none>        443/TCP        8d    <none>
+service/mlflow-service                  ClusterIP      10.96.177.183    <none>        5000/TCP       22h   app=mlflow
+
+NAME                                        READY   UP-TO-DATE   AVAILABLE   AGE   CONTAINERS   IMAGES                          SELECTOR
+deployment.apps/heart-api                   2/2     2            2           26h   api          heart-disease-api:v1            app=heart-api
+deployment.apps/heart-disease-api           2/2     2            2           98m   api          heart-disease-api:v1            app=heart-disease-api
+deployment.apps/heart-disease-release-api   2/2     2            2           13h   api          heart-disease-api:v1            app=heart-disease-release-api
+deployment.apps/mlflow-server               1/1     1            1           22h   mlflow       ghcr.io/mlflow/mlflow:v2.11.1   app=mlflow
+
+# exit code: 0

@@ -1,0 +1,8 @@
+# 2026-10-20T13:31:22+05:30
+# host: Anmol-Sinha
+$ docker inspect --format '{{.Name}} {{.State.Status}} health={{if .State.Health}}{{.State.Health.Status}}{{else}}n/a{{end}}' ml_api mlflow_server
+
+/ml_api running health=healthy
+/mlflow_server running health=healthy
+
+# exit code: 0

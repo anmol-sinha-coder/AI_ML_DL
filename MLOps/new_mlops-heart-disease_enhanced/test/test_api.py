@@ -71,3 +71,12 @@ def test_service_unavailable_without_model(tmp_path, monkeypatch, valid_payload)
     with TestClient(app) as c:
         assert c.get("/health").status_code == 503
         assert c.post("/predict", json=valid_payload).status_code == 503
+
+
+def test_model_and_input_metrics(client, valid_payload):
+    client.post("/predict", json=valid_payload)
+    text = client.get("/metrics").text
+    for name in ("heart_model_loaded 1.0", "heart_model_info{", "heart_risk_band_total{", "heart_input_age_bucket",
+                 "heart_input_chol_count", "http_requests_inprogress", "http_request_duration_highr_seconds_bucket"):
+        assert name in text, name
+    assert 'handler="/metrics"' not in text   # scraping must not pollute the traffic panels
